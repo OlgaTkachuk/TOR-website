@@ -1,0 +1,322 @@
+.letter-about {
+    color: rgba(55, 52, 65, 0.4);
+    font-size: 17rem;
+    font-weight: 700;
+    position: absolute;
+    left: -10%;
+}
+
+.polygon {
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(57, 63, 77, 0.05);
+    clip-path: polygon(100% 0, 100% 78%, 79% 100%, 0 81%, 0 0);
+    height: 1220px;
+
+}
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+.whoweare-text {
+    max-width: 930px;
+    margin: auto;
+    padding-top: 60px;
+    position: relative;
+    z-index: 50;
+}
+
+.letters-whoweare {
+    font-size: 17rem;
+    color: white;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 30;
+    left: 18%;
+}
+
+.img1-whoweare {
+    max-width: 28vw;
+    /*position: absolute;*/
+    /*left: 15%;*/
+    /*margin-top: 100px;*/
+}
+
+.img2-whoweare {
+    max-width: 35vw;
+    margin: 20px;
+    /*position: absolute;*/
+    /*right: 15%;*/
+    /*margin-top: 120px;*/
+
+}
+
+.img3-whoweare {
+    max-width: 40vw;
+    position: relative;
+    z-index: 100;
+    /*left: 35%;*/
+    /*margin-top: 35%;*/
+}
+@media screen and (max-width: 599px) {
+    .polygon {
+        height: 1470px;
+        clip-path: none;
+    }
+    .wrapper1 {
+        /*margin-top: -60px;*/
+        flex-direction: column;
+    }
+    .whoweare-text {
+        max-width: 80vw;
+        padding-top: 80px;
+    }
+
+    .letters-whoweare {
+        font-size: 6rem;
+        left: 5%;
+    }
+
+    .img-wrapper-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1-whoweare, .img2-whoweare, .img3-whoweare {
+        max-width: 80vw;
+        position: relative;
+        left: 0;
+        margin: 0 25px 25px 25px;
+    }
+    .img2-whoweare {
+        position: relative;
+    }
+
+    .img3-whoweare {
+        position: relative;
+    }
+    .section-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    .polygon {
+        clip-path: none;
+        height: 1000px;
+    }
+    .whoweare-text {
+        max-width: 590px;
+        padding-top: 120px;
+    }
+    .img1-whoweare {
+        max-width: 35vw;
+        /*left: 10%*/
+    }
+    .img2-whoweare{
+        max-width: 40vw;
+        /*right: 10%*/
+    }
+    .img3-whoweare {
+        /*margin-top: 400px;*/
+        /*max-width: 45vw;*/
+    }
+    .letters-whoweare {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1399px){
+    .polygon {
+        clip-path: polygon(100% 0, 100% 55%, 82% 100%, 0 87%, 0 0);
+        height: 1220px;
+
+        /*height: 140vh;*/
+    }
+
+    .whoweare-text {
+        max-width:880px;
+    }
+    .img1-whoweare {
+        max-width: 35vw;
+        /*left: 10%*/
+    }
+    .img2-whoweare{
+        max-width: 42vw;
+        /*right: 10%*/
+    }
+    .img3-whoweare {
+        /*margin-top: 480px;*/
+        max-width: 45vw;
+
+    }
+    .letters-whoweare {
+        left: 7%;
+    }
+}
+@media screen and (min-width: 1400px) {
+
+    .polygon {
+        height: 1300px;
+        clip-path: polygon(100% 0, 100% 55%, 82% 100%, 0 87%, 0 0);
+    }
+
+
+    .letters-whoweare {
+        font-size: 17rem;
+        left: 20%
+    }
+    .img1-whoweare {
+        max-width: 28vw;
+        /*left: 15%;*/
+        /*margin-top: 100px;*/
+    }
+
+    .img2-whoweare {
+        max-width: 35vw;
+        /*position: absolute;*/
+        /*right: 15%;*/
+        /*margin-top: 120px;*/
+
+    }
+    .img3-whoweare {
+        /*right: 21%;*/
+        /*left: initial;*/
+        /*margin-top: 40%;*/
+        max-width: 30vw;
+        position: relative;
+        z-index: 50;
+    }
+
+}
+.map-background {
+    background-color: #393f4d;
+    text-align: center;
+    padding: 20px 0 40px 0;
+    margin-top: 30px;
+}
+
+.map-pic {
+    width: 80vw;
+    max-width: 930px;
+    margin: auto;
+}
+
+.map-title {
+    color: white;
+}
+
+.map-text {
+    max-width: 60vw;
+    margin: auto;
+    color: #d4d4dc;
+    padding: 20px 20px 40px 20px;
+}
+.about-about-title {
+  text-align: left;
+    margin-left: 20%;
+}
+.about-hr-about {
+    width: 35vw;
+    position: relative;
+    margin: -10px 0 40px 0;
+}
+.adv-section {
+    color: #393f4d;
+}
+.adv-name {
+    margin: 30px auto;
+    max-width: 130px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.adv-wrapper {
+    max-width: 930px;
+    margin: 30px auto 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.adv-card {
+    padding: 25px 20px;
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.adv-card:hover {
+   color: #feda6a;
+    -webkit-box-shadow: 0px 0px 41px 7px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 41px 7px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 41px 7px rgba(0,0,0,0.12);
+}
+.adv-card:hover >p {
+    color: #393f4d;
+}
+/*questions*/
+.questions-section {
+    height: 280px;
+}
+.questions-background {
+    background-color: #f5f5f5;
+    z-index: -1;
+    bottom: 160px;
+    height: 260px;
+    width: 70vw;
+    position: relative;
+}
+.button-quest {
+    margin: auto;
+    position: relative;
+    width: 150px;
+    top: 50px;
+}
+.hr-quest {
+    width: 65%;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+.button-quest {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .adv-wrapper{
+        max-width: 580px;
+    }
+    .adv-card {
+        flex-direction: column;
+    }
+    .questions-background {
+        width: 80vw;
+    }
+}
+@media screen and  (max-width: 599px){
+    .adv-wrapper {
+        flex-direction: column;
+    }
+    .adv-card {
+      width: 70vw;
+    }
+    .questions-background {
+        width: 100%;
+    }
+}

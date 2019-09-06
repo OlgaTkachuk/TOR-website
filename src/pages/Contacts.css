@@ -1,0 +1,35 @@
+.contact-us-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.contacts {
+    width: 50%;
+}
+.contacts-form {
+    width: 50%;
+    height: 800px;
+    background-color: #393f4d;
+    /*display: flex;*/
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    justify-content: center;
+    /*align-items: center;*/
+    margin: auto;
+}
+.contact-us-title {
+    color: #d4d4dc;
+}
+label {
+    color: #d4d4dc;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d4dc ;
+}
