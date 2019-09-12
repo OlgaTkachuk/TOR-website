@@ -96,6 +96,10 @@ button:focus, .logo:focus {
         list-style: none;
         text-align: center;
     }
+    .dropdown-container li:hover {
+        background-color: #e0e0e0;
+
+    }
     .dropdown-wrapper:hover .dropdown-container{
         display: flex;
         flex-direction: row;
