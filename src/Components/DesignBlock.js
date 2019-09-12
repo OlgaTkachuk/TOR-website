@@ -9,11 +9,11 @@ class DesignBlock extends Component {
                     <div className="design-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id. Nibh mauris cursus mattis molestie a iaculis at erat. Nam at lectus urna duis convallis convallis tellus id. Sagittis vitae et leo duis. Dolor purus non enim praesent elementum facilisis leo. Et pharetra pharetra massa massa ultricies mi. Facilisis sed odio morbi quis commodo odio aenean sed.
                         </p>
-                        <Link to="/custom" className="button-dark design-button">Explore</Link>
+                        {/*<Link to="/custom" className="button-dark design-button">Explore</Link>*/}
                     </div>
                     <div className="design-title">
                         <h1>Design your item</h1>
-                        <hr/>
+                        <hr className="hr-same design-hr"/>
                         <h3>D</h3>
                     </div>
                 </section>

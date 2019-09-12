@@ -8,6 +8,7 @@ import CustomMade from './pages/CustomMade'
 import WhatsNew from './pages/WhatsNew'
 import Catalog from './pages/Catalog'
 import Collection from './pages/Collection'
+import InDevelopment from './pages/InDevelopment'
 import Navbar from "./Components/Navbar";
 
 import {Route, Switch} from 'react-router-dom'
@@ -25,6 +26,7 @@ function App() {
                 <Route exact path="/custom" component={CustomMade}/>
                 <Route exact path="/news" component={WhatsNew}/>
                 <Route exact path="/contacts" component={Contacts}/>
+                <Route exact path="/dev" component={InDevelopment}/>
                 <Route component={Error}/>
             </Switch>
         </div>

@@ -6,6 +6,8 @@ import DesignBlock from "../Components/DesignBlock";
 import AboutSection from "../Components/AboutSection"
 import PlusesSection from "../Components/PlusesSection";
 import ContactsHome from "../Components/ContactsHome";
+import NewArrivalsHome from "../Components/NewArrivalsHome";
+import Footer from "../Components/Footer";
 
 class Home extends Component {
     render() {
@@ -19,7 +21,9 @@ class Home extends Component {
                 <DesignBlock/>
                 <AboutSection title={"About us"} title_classname={"home-about-title"}/>
                 <PlusesSection/>
+                <NewArrivalsHome/>
                 <ContactsHome/>
+                <Footer/>
             </div>
         );
     }

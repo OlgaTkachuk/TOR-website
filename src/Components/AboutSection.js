@@ -7,11 +7,12 @@ const AboutSection = ({title, title_classname}) => {
     return (
         <section>
             <h1 className={title_classname + ' ' + 'section-title'}>{title}</h1>
-            <hr className="about-hr"/>
+            <hr className="hr-same about-hr"/>
+            <div className="about-background"/>
             <div className="section-wrap-about-us">
                 <div className="about-text-wrapper-outer">
-                    <div className="about-text-wrapper-inner">
-                        <p className="text-paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div className="about-text-wrapper-inner about-text-wrapper-inner-1">
+                        <p className="text-paragraph text-paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id.
                             Nibh
@@ -25,13 +26,13 @@ const AboutSection = ({title, title_classname}) => {
                 </div>
                 <div>
                     <img src={img_par_1} alt={''} className="img-par"/>
-                    <div>
-                        <Link to='/about' className="button-dark button-about-div-1">Learn more &#8250;</Link>
-                    </div>
+                    {/*<div>*/}
+                        {/*<Link to='/about' className="button-dark button-about-div-1">Learn more &#8250;</Link>*/}
+                    {/*</div>*/}
                 </div>
                 <div className="about-text-wrapper-outer">
-                    <div className="about-text-wrapper-inner-2">
-                        <p className="text-paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div className="about-text-wrapper-inner about-text-wrapper-inner-2">
+                        <p className="text-paragraph text-paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id.
                             Nibh
@@ -46,7 +47,7 @@ const AboutSection = ({title, title_classname}) => {
                 </div>
                 <div className="image-wrapper">
                     <img src={img_par_2} alt={''} className="img-par img-par-2"/>
-                    <Link to='/about' className="button-dark button-about-div-2">Learn more &#8250;</Link>
+                    {/*<Link to='/about' className="button-dark button-about-div-2">Learn more &#8250;</Link>*/}
                 </div>
             </div>
         </section>

@@ -4,8 +4,8 @@ const ContactsHome = () => {
     return (
         <section className="contacts-home">
             <div className="contacts-header">
-                <h1 className="section-title contacts-title">Contact Us</h1>
-                <hr className="contacts-hr"/>
+                <h1 className="section-title contacts-title ">Contact Us</h1>
+                <hr className="hr-same contacts-hr"/>
             </div>
             <div className="contacts-info">
                 <ul>

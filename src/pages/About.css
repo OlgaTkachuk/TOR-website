@@ -1,5 +1,6 @@
 .letter-about {
-    color: rgba(55, 52, 65, 0.4);
+    /*color: rgba(55, 52, 65, 0.4);*/
+    color: rgba(255, 255, 255, 0.1);
     font-size: 17rem;
     font-weight: 700;
     position: absolute;

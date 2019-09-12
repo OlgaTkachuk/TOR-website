@@ -2,9 +2,9 @@ import React from 'react';
 
 const Hero = ({children, classname}) => {
     return (
-        <header className={classname}>
+        <section className={classname}>
             {children}
-        </header>
+        </section>
 
     );
 };

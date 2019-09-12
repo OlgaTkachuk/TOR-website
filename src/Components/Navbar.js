@@ -4,8 +4,10 @@ import {Link, NavLink} from "react-router-dom";
 import logo from '../assets/images/logo.png'
 
 class Navbar extends Component {
+
     state = {
-        isOpen: false
+        isOpen: false,
+        isHovering: false,
     };
     handleToggle = () => {
         this.setState({
@@ -13,6 +15,17 @@ class Navbar extends Component {
             activeOption: 0
         })
     };
+
+    handleMouseHover() {
+        this.setState(this.toggleHoverState);
+    }
+
+    toggleHoverState(state) {
+        return {
+            isHovering: !state.isHovering,
+        };
+    }
+
 
     render() {
         return (
@@ -23,10 +36,10 @@ class Navbar extends Component {
                             <img src={logo} alt="TOR logo" className="logo"/>
                         </Link>
                         <button type="button" className="nav-btn" onClick={this.handleToggle}>
-                            <FaBars className="nav-icon" />
+                            <FaBars className="nav-icon"/>
                         </button>
                     </div>
-                    <ul className={this.state.isOpen ? "nav-links show-mob-nav": "nav-links" }>
+                    <ul className={this.state.isOpen ? "nav-links show-mob-nav" : "nav-links"}>
                         <li>
                             <NavLink exact to="/" activeClassName="active">Home</NavLink>
                         </li>
@@ -36,8 +49,30 @@ class Navbar extends Component {
                         <li>
                             <NavLink exact to="/custom" activeClassName="active">Custom Made</NavLink>
                         </li>
-                        <li>
+                        <li className="dropdown-wrapper">
                             <NavLink exact to="/catalog" activeClassName="active">Catalog</NavLink>
+                            <div className="dropdown-container">
+                                <ul className="dropdown-column-1">
+                                    <li>Decorative floor vases</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                </ul>
+                                <ul className="dropdown-column-2">
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                    <li>One</li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <NavLink exact to="/contacts" activeClassName="active">Contact Us</NavLink>
