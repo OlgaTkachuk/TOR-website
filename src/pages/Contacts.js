@@ -10,7 +10,7 @@ class Contacts extends Component {
     render() {
         return (
             <div>
-                <Hero><Banner letter={"C"} title={"Contact us"}
+                <Hero classname={"hero-contacts"}><Banner letter={"C"} title={"Contact us"}
                               classname={"letter-about letter-contacts "}/>
                 </Hero>
                 <section className="contact-us-section">

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {FaBars} from 'react-icons/fa'
 import {Link, NavLink} from "react-router-dom";
-import logo from '../assets/images/logo.png'
+import logo_final from '../assets/images/logo_final.svg'
+import Collection from "../pages/Collection";
 
 class Navbar extends Component {
 
@@ -26,14 +27,13 @@ class Navbar extends Component {
         };
     }
 
-
     render() {
         return (
             <nav className="navbar">
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
-                            <img src={logo} alt="TOR logo" className="logo"/>
+                            <img src={logo_final} alt="TOR logo" className="logo logo_svg"/>
                         </Link>
                         <button type="button" className="nav-btn" onClick={this.handleToggle}>
                             <FaBars className="nav-icon"/>
@@ -53,24 +53,28 @@ class Navbar extends Component {
                             <NavLink exact to="/catalog" activeClassName="active">Catalog</NavLink>
                             <div className="dropdown-container">
                                 <ul className="dropdown-column-1">
-                                    <li>Decorative floor vases</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
+                                    <li>
+                                        <Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                    </li>
+                                    <li><Link exact to="/collection/b" component={Collection}>Collection B</Link></li>
+                                    <li><Link exact to="/collection/c" component={Collection}>Collection C</Link></li>
+                                    <li><Link exact to="/collection/d" component={Collection}>Collection D</Link></li>
+                                    <li><Link exact to="/collection/c" component={Collection}>Collection C</Link></li>
+                                    <li><Link exact to="/collection/e" component={Collection}>Collection E</Link></li>
+                                    <li><Link exact to="/collection/f" component={Collection}>Collection F</Link></li>
+                                    <li><Link exact to="/collection/a" component={Collection}>Collection A</Link></li>
                                 </ul>
                                 <ul className="dropdown-column-2">
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
-                                    <li>One</li>
+                                    <li>
+                                        <Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                    </li>
+                                    <li><Link exact to="/collection/b" component={Collection}>Collection B</Link></li>
+                                    <li><Link exact to="/collection/c" component={Collection}>Collection C</Link></li>
+                                    <li><Link exact to="/collection/d" component={Collection}>Collection D</Link></li>
+                                    <li><Link exact to="/collection/c" component={Collection}>Collection C</Link></li>
+                                    <li><Link exact to="/collection/e" component={Collection}>Collection E</Link></li>
+                                    <li><Link exact to="/collection/f" component={Collection}>Collection F</Link></li>
+                                    <li><Link exact to="/collection/a" component={Collection}>Collection A</Link></li>
                                 </ul>
                             </div>
                         </li>

@@ -7,7 +7,7 @@ class DesignBlock extends Component {
             <>
                 <section className="design-wrapper">
                     <div className="design-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id. Nibh mauris cursus mattis molestie a iaculis at erat. Nam at lectus urna duis convallis convallis tellus id. Sagittis vitae et leo duis. Dolor purus non enim praesent elementum facilisis leo. Et pharetra pharetra massa massa ultricies mi. Facilisis sed odio morbi quis commodo odio aenean sed.
+                        <p> Our range of technological possibilities enable the individual production according to the client's requirements and orders. We are always ready to incarnate all your ideas in glass! Why not turn your fantasy into reality?
                         </p>
                         {/*<Link to="/custom" className="button-dark design-button">Explore</Link>*/}
                     </div>

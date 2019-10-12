@@ -13,7 +13,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Hero>
+                <Hero classname={"hero-about"}>
                     <Banner letter={"O"} title={"OUR STORY & MISSION"}
                             classname={"letter-about"}/>
                 </Hero>

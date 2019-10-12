@@ -9,7 +9,7 @@ class Catalog extends Component {
     render() {
         return (
             <div>
-                <Hero>
+                <Hero classname={"hero-catalog"}>
                     <Banner letter={"E"} title={"Explore our collections"}
                             classname={"letter-catalog"}/>
                 </Hero>

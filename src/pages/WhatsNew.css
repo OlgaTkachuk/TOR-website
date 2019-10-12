@@ -1,0 +1,125 @@
+.new-letter {
+    position: absolute;
+    left: -120px;
+}
+.news-card {
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    margin: 55px 10px 45px 65px;
+    padding: 20px 20px 50px 20px;
+}
+.carousel-container-news {
+    max-width: 930px;
+    margin: auto;
+}
+.cards-new-text {
+    padding-top: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.hr-news {
+    margin-top: -10px;
+    width: 65vw;
+}
+.arrivals-title {
+    margin-top: 0;
+}
+.hr-trends {
+    margin: -10px;
+    width: 68vw;
+    float: right;
+}
+.hr-trend-card {
+    margin-top: -10px;
+    width: 15vw;
+}
+.trend-wrapper {
+    width: 80vw;
+    margin: auto auto 30px;
+    /*-webkit-box-shadow: 11px 31px 50px 0px rgba(0,0,0,0.6);*/
+    /*-moz-box-shadow: 11px 31px 32px 0px rgba(0,0,0,0.6);*/
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.05);
+}
+.trend-wrapper p{
+    padding: 20px 60px;
+}
+.trend-card-title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 50px;
+    padding: 20px 0 0 70px;
+    text-align: left;
+}
+.trend-article-title {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #393f4d;
+    text-align: left;
+}
+.button-trend {
+    border: none;
+    position: relative;
+}
+.trends-img {
+    height: 40vh;
+}
+.trend-article-wrapper {
+    max-width: 930px;
+    width: 80vw;
+    margin: auto;
+}
+.article-hide {
+    display: none;
+}
+.hr-trends-article {
+    color: #50596d;
+    border: 1px solid #50596d;
+    margin-top: 5px;
+    width: 50vw;
+}
+.trend-article-title {
+    text-align: center;
+}
+
+.article-par {
+    padding: 30px 0;
+}
+
+.button-article {
+    position: relative;
+    left: 80%;
+    border-style: none;
+    margin-bottom: -15px;
+}
+.button-article:focus {
+    background-color: #393f4d;
+}
+
+@media screen and (min-width: 1300px){
+    .trends-img {
+        height: 25vh;
+    }
+}
+@media screen and (max-width: 599px){
+    .trends-img {
+        height: 35vh;
+    }
+    .button-article {
+        left: 55%;
+    }
+    .trend-wrapper p {
+        padding: 20px 30px;
+    }
+    .trend-card-title {
+        padding: 20px 0 0 10px;
+        text-align: center;
+    }
+    .carousel-container-news {
+        max-width: 300px;
+    }
+    .news-card {
+        margin: 35px 10px 45px 35px;
+        padding: 20px 20px 30px 20px;
+    }
+}

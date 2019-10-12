@@ -156,7 +156,7 @@
         text-decoration: none;
     }
 
-    br {
+    .block-menu-wrapper br{
         display: none;
     }
 
@@ -170,9 +170,9 @@
     .catalog-new-title {
         font-size: 2.3rem;
         padding: 0 0 0 14%;
-        position: absolute;
+        position: relative;
         z-index: 50;
-        bottom: -25px;
+        bottom: 120px;
         left: 0;
     }
 
@@ -183,7 +183,7 @@
     .arrow-small-icon {
         color: rgba(57, 63, 77, 0.55);
         position: relative;
-        bottom: 116px;
+        bottom: 165px;
         left: 0;
         margin-left: 85%;
     }

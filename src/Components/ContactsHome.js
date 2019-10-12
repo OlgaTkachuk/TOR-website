@@ -9,9 +9,9 @@ const ContactsHome = () => {
             </div>
             <div className="contacts-info">
                 <ul>
-                    <li>+38 (098) 000 00 00</li>
-                    <li>+38 (098) 111 22 33</li>
-                    <li>email@gmail.com</li>
+
+                    <li>+38 (067) 340 69 33</li>
+                    <li>office@torglass.com.ua</li>
                 </ul>
             </div>
         </section>

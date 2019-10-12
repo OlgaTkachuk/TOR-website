@@ -15,13 +15,13 @@ class BlockCatalog extends Component {
         return (
             <div>
                 <div className="block-menu-wrapper">
-                    <Link to="/news" style={{textDecoration: 'none'}} className="item-wrapper">
+                    <Link to="/collection/a" style={{textDecoration: 'none'}} className="item-wrapper">
                         <div className="block-item">
                             <img src={vaza_kvadrat} className="img-catalog hide-img-mob"/>
                             <p className="catalog-block-text">Cylindrical<br/> and square <br/>vases</p>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}} className={"news-link-div"}>
+                    <Link to="/collection/b" style={{textDecoration: 'none'}} className={"news-link-div"}>
                         <div className="block-item block-link">
                             <h2 className="letter-catalog-menu">N</h2>
                             <p className="catalog-new-title">New arrivals</p>
@@ -29,25 +29,25 @@ class BlockCatalog extends Component {
                             <FaChevronRight className="arrow-small-icon" size={50}/>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}}>
+                    <Link to="/collection/c" style={{textDecoration: 'none'}}>
                         <div className="block-item">
                             <img src={bokal} className="img-catalog hide-img-mob"/>
                             <p className="catalog-block-text text-2">Cognac <br/> glass<br/> and sphere</p>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}}>
+                    <Link to="/collection/b" style={{textDecoration: 'none'}}>
                         <div className="block-item">
                             <img src={dekanter} className="img-catalog hide-img-mob"/>
                             <p className="catalog-block-text text-2">Decanter, <br/>hookah</p>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}}>
+                    <Link to="/collection/d" style={{textDecoration: 'none'}}>
                         <div className="block-item">
                             <img src={tort} className="img-catalog img-tort hide-img-mob"/>
                             <p className="catalog-block-text text-2">Cake <br/>maker, <br/>candy bar</p>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}}>
+                    <Link to="/collection/a" style={{textDecoration: 'none'}}>
                         <div className="block-item">
                             <img src={vaza_pidl} className="img-catalog img-vaza hide-img-mob"/>
                             <p className="catalog-block-text text-2">Decorative<br/> floor<br/> vases</p>
@@ -59,7 +59,7 @@ class BlockCatalog extends Component {
                             <p className="catalog-block-text text-2">Candlestick</p>
                         </div>
                     </Link>
-                    <Link to="/news" style={{textDecoration: 'none'}}>
+                    <Link to="/collection/b" style={{textDecoration: 'none'}}>
                         <div className="block-item"></div>
                     </Link>
                     <Link to="/news" style={{textDecoration: 'none'}}>
