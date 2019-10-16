@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Banner = ({children, letter, title, subtitle, classname}) => {
     return (
         <section className="banner-container">
