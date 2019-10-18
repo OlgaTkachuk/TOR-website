@@ -4,7 +4,8 @@ import {Link, NavLink} from "react-router-dom";
 import logo_final from '../assets/images/logo_final.svg'
 import Collection from "../pages/Collection";
 import {content} from "../content/content";
-import {LanguageConsumer, LanguageProvider} from "./LanguageContext";
+import {LanguageConsumer} from "./LanguageContext";
+
 
 class Navbar extends Component {
 
@@ -37,16 +38,26 @@ class Navbar extends Component {
         return (
             <>
                 <nav className="navbar">
-                    <div className="lang_toggle">
-                        <button onClick={this.toggleLanguage.bind(this, "en")}
-                                className={(this.state.selectedLanguage === "en") ? "lang_button_act" : "lang_button"}>
-                            EN
-                        </button>
-                        <button onClick={this.toggleLanguage.bind(this, "ua")}
-                                className={(this.state.selectedLanguage === "en") ? "lang_button" : "lang_button_act"}>
-                            UA
-                        </button>
-                    </div>
+                    <LanguageConsumer>
+                        {({lang, updateLanguage}) => (
+                            <>
+                            <div className="lang_toggle">
+                                <button value="en" onClick={event => {
+                                    updateLanguage(event.target.value);
+                                    console.log(lang)
+                                }}
+                                        className={(this.value === "en") ? "lang_button_act" : "lang_button"}>
+                                    EN
+                                </button>
+                                <button value="ua" onClick={event => {
+                                    updateLanguage(event.target.value);
+                                    console.log(lang)
+                                }}
+                                        className={(this.value === "en") ? "lang_button" : "lang_button_act"}>
+                                    UA
+                                </button>
+                                <h3>{lang}</h3>
+                            </div>
                     <div className="nav-center">
                         <div className="nav-header">
                             <Link to="/">
@@ -72,40 +83,56 @@ class Navbar extends Component {
                                 <div className="dropdown-container">
                                     <ul className="dropdown-column-1">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                            <Link exact to="/collection/a" component={Collection}>Collection
+                                                A</Link>
                                         </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>Collection B</Link>
+                                        <li><Link exact to="/collection/b" component={Collection}>Collection
+                                            B</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>Collection
+                                            C</Link>
                                         </li>
-                                        <li><Link exact to="/collection/d" component={Collection}>Collection D</Link>
+                                        <li><Link exact to="/collection/d" component={Collection}>Collection
+                                            D</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>Collection
+                                            C</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>Collection E</Link>
+                                        <li><Link exact to="/collection/e" component={Collection}>Collection
+                                            E</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>Collection F</Link>
+                                        <li><Link exact to="/collection/f" component={Collection}>Collection
+                                            F</Link>
                                         </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                        <li><Link exact to="/collection/a" component={Collection}>Collection
+                                            A</Link>
                                         </li>
                                     </ul>
                                     <ul className="dropdown-column-2">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                            <Link exact to="/collection/a" component={Collection}>Collection
+                                                A</Link>
                                         </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>Collection B</Link>
+                                        <li><Link exact to="/collection/b" component={Collection}>Collection
+                                            B</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>Collection
+                                            C</Link>
                                         </li>
-                                        <li><Link exact to="/collection/d" component={Collection}>Collection D</Link>
+                                        <li><Link exact to="/collection/d" component={Collection}>Collection
+                                            D</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>Collection
+                                            C</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>Collection E</Link>
+                                        <li><Link exact to="/collection/e" component={Collection}>Collection
+                                            E</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>Collection F</Link>
+                                        <li><Link exact to="/collection/f" component={Collection}>Collection
+                                            F</Link>
                                         </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>Collection A</Link>
+                                        <li><Link exact to="/collection/a" component={Collection}>Collection
+                                            A</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -115,10 +142,27 @@ class Navbar extends Component {
                             </li>
                         </ul>
                     </div>
+                            </>
+                            )}
+                    </LanguageConsumer>
                 </nav>
-            <LanguageContext.Provider value={this.selectedLanguage}>
-                    {this.props.children}
-            </LanguageContext.Provider>
+                <LanguageConsumer>
+                    {({lang, updateLanguage}) => (
+                        <div>
+                            <h2>Settings</h2>
+                            <label htmlFor="username">Username: </label>
+                            <input
+                                id="username"
+                                type="text"
+                                onChange={event => {
+                                    updateLanguage(event.target.value);
+                                    console.log(1)
+                                }}
+                            />
+                            <h1>new {lang}</h1>
+                        </div>
+                    )}
+                </LanguageConsumer>
             </>
         );
     }
