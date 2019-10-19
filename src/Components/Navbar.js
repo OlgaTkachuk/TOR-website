@@ -35,6 +35,7 @@ class Navbar extends Component {
     }
 
     render() {
+
         return (
             <>
                 <nav className="navbar">
@@ -56,7 +57,6 @@ class Navbar extends Component {
                                         className={(this.value === "en") ? "lang_button" : "lang_button_act"}>
                                     UA
                                 </button>
-                                <h3>{lang}</h3>
                             </div>
                     <div className="nav-center">
                         <div className="nav-header">
@@ -142,27 +142,10 @@ class Navbar extends Component {
                             </li>
                         </ul>
                     </div>
-                            </>
-                            )}
+                            </>)}
                     </LanguageConsumer>
                 </nav>
-                <LanguageConsumer>
-                    {({lang, updateLanguage}) => (
-                        <div>
-                            <h2>Settings</h2>
-                            <label htmlFor="username">Username: </label>
-                            <input
-                                id="username"
-                                type="text"
-                                onChange={event => {
-                                    updateLanguage(event.target.value);
-                                    console.log(1)
-                                }}
-                            />
-                            <h1>new {lang}</h1>
-                        </div>
-                    )}
-                </LanguageConsumer>
+
             </>
         );
     }

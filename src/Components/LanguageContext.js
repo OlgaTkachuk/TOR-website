@@ -1,16 +1,19 @@
-import React, { createContext } from 'react';
+import React, {createContext} from 'react';
 
 const LanguageContext = createContext({
     lang: '',
-    updateLanguage: () => {},
+    updateLanguage: () => {
+    },
 });
 
 export class LanguageProvider extends React.Component {
+
     updateLanguage = newLang => {
-        this.setState({ lang: newLang });
+        this.setState({lang: newLang});
     };
+
     state = {
-        lang: 'english',
+        lang: (navigator.languages.includes("uk-UA") || navigator.languages.includes("ru-UA") || navigator.languages.includes("uk")) ? "ua" : "en",
         updateLanguage: this.updateLanguage,
     };
 

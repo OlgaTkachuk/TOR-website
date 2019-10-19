@@ -14,7 +14,8 @@ class DesignBlock extends Component {
                         <>
                             <section className="design-wrapper">
                                 <div className="design-text">
-                                    <p>{content[lang].title}</p>
+                                    <p>{content[lang].title}
+                                    </p>
                                     {/*<Link to="/custom" className="button-dark design-button">Explore</Link>*/}
                                 </div>
                                 <div className="design-title">
