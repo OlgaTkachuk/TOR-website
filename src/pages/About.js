@@ -8,22 +8,28 @@ import WhoWeAre from "../Components/WhoWeAre";
 import Map from "../Components/Map";
 import Advantages from "../Components/Advantages";
 import Questions from "../Components/Questions";
+import {LanguageConsumer} from "../Components/LanguageContext";
+import {content} from "../content/content";
 
 class About extends Component {
     render() {
         return (
-            <div>
-                <Hero classname={"hero-about"}>
-                    <Banner letter={"O"} title={"OUR STORY & MISSION"}
-                            classname={"letter-about"}/>
-                </Hero>
-                <WhoWeAre/>
-                <AboutSection2 title={"Our story"} title_classname={"about-about-title"}/>
-                <Map/>
-                <Advantages/>
-                <Questions/>
-                <Footer/>
-            </div>
+            <LanguageConsumer>
+                {({lang = ''}) => (
+                    <div>
+                        <Hero classname={"hero-about"}>
+                            <Banner letter={content[lang].about_hero_letter} title={content[lang].about_hero}
+                                    classname={"letter-about"}/>
+                        </Hero>
+                        <WhoWeAre/>
+                        <AboutSection2 title={"Our story"} title_classname={"about-about-title"}/>
+                        <Map/>
+                        <Advantages/>
+                        <Questions/>
+                        <Footer/>
+                    </div>
+                )}
+            </LanguageConsumer>
         );
     }
 }

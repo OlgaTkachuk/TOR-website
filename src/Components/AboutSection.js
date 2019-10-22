@@ -21,9 +21,9 @@ const AboutSection = ({title, title_classname}) => {
                 </div>
                 <div>
                     <img src={img_par_1} alt={''} className="img-par"/>
-                    {/*<div>*/}
-                        {/*<Link to='/about' className="button-dark button-about-div-1">Learn more &#8250;</Link>*/}
-                    {/*</div>*/}
+                    <div>
+                        <Link to='/about' className="button-dark button-about-div-1">Learn more &#8250;</Link>
+                    </div>
                 </div>
                 <div className="about-text-wrapper-outer">
                     <div className="about-text-wrapper-inner about-text-wrapper-inner-2">
@@ -40,7 +40,7 @@ const AboutSection = ({title, title_classname}) => {
                 </div>
                 <div className="image-wrapper">
                     <img src={img_par_2} alt={''} className="img-par img-par-2"/>
-                    {/*<Link to='/about' className="button-dark button-about-div-2">Learn more &#8250;</Link>*/}
+                    <Link to='/about' className="button-dark button-about-div-2">Learn more &#8250;</Link>
                 </div>
             </div>
         </section>

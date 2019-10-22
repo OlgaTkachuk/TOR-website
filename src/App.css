@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.latin-font{
     font-family: 'Roboto Slab', serif;
 }
-
+.cyrillic-font{
+    font-family: 'Merriweather', serif;
+}
 /*debugger for white space*/
 /** {*/
 /*background: #000 !important;*/
@@ -158,9 +162,7 @@ button:focus, .logo:focus {
 /*end of NAVBAR*/
 /*Hero*/
 .defaultHero {
-    /*min-height: calc(100vh - 195px);*/
-    /*min-height: calc(100vh - 165px);*/
-    min-height: calc(100vh);
+    min-height: calc(100vh - 225px);
     background: linear-gradient(
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)
@@ -212,7 +214,7 @@ button:focus, .logo:focus {
 }
 
 .hero-contacts {
-    min-height: calc(100vh - 245px);
+    min-height: calc(100vh - 225px);
     background: linear-gradient(
             rgba(57, 63, 77, 0.6),
             rgba(29, 30, 34, 0.6)

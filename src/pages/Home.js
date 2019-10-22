@@ -10,25 +10,33 @@ import NewArrivalsHome from "../Components/NewArrivalsHome";
 import Footer from "../Components/Footer";
 import {Link} from "react-router-dom";
 import logo_final from "../assets/images/logo_white.svg";
+import {LanguageConsumer} from "../Components/LanguageContext";
+import {content} from "../content/content";
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <Hero>
-                    <Link to="/">
-                        <img src={logo_final} alt="TOR logo" className="logo_white"/>
-                    </Link>
-                    <Banner letter={"T"} title={"Traditions & Innovation"} subtitle={"Doing our best since 1992"}
-                            classname={"letter-home"}/>
-                </Hero>
-                <BlockMenu/>
-                <DesignBlock/>
-                <AboutSection title={"About us"} title_classname={"home-about-title"}/>
-                <PlusesSection/>
-                <NewArrivalsHome/>
-                <ContactsHome/>
-                <Footer/>
+                <LanguageConsumer>
+                    {({lang = '', updateLanguage}) => (
+                        <>
+                            <Hero>
+                                <Link to="/">
+                                    <img src={logo_final} alt="TOR logo" className="logo_white"/>
+                                </Link>
+                                <Banner letter={"T"} title={content[lang].home_hero_title}
+                                        subtitle={content[lang].home_hero_subtitle}
+                                        classname={"letter-home"}/>
+                            </Hero>
+                            <BlockMenu/>
+                            <DesignBlock/>
+                            <AboutSection title={"About us"} title_classname={"home-about-title"}/>
+                            <PlusesSection/>
+                            <NewArrivalsHome/>
+                            <ContactsHome/>
+                            <Footer/>
+                        </>)}
+                </LanguageConsumer>
             </div>
         );
     }

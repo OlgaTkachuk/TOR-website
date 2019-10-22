@@ -9,19 +9,25 @@ import prod6 from "../assets/images/prod6.png";
 import Carousel from "nuka-carousel";
 import NewArrivalsCarousel from "../Components/NewArrivalsCarousel";
 import Trends from "../Components/Trends";
+import {LanguageConsumer} from "../Components/LanguageContext";
+import {content} from "../content/content";
 
 class WhatsNew extends Component {
     render() {
         return (
-            <div>
-                <Hero>
-                    <Banner letter={"W"} title={"What's new"}
-                            classname={"letter-about new-letter"}/>
-                </Hero>
-                <NewArrivalsCarousel/>
-                <Trends/>
-                <Footer/>
-            </div>
+            <LanguageConsumer>
+                {({lang = ''}) => (
+                    <div>
+                        <Hero>
+                            <Banner letter={content[lang].news_hero_letter} title={content[lang].news_hero}
+                                    classname={"letter-about new-letter"}/>
+                        </Hero>
+                        <NewArrivalsCarousel/>
+                        <Trends/>
+                        <Footer/>
+                    </div>
+                )}
+            </LanguageConsumer>
         );
     }
 }

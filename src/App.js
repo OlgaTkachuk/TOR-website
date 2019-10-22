@@ -13,14 +13,16 @@ import Navbar from "./Components/Navbar";
 import Error from "./pages/Error";
 
 import {Route, Switch} from 'react-router-dom'
-import {LanguageProvider} from "./Components/LanguageContext";
+import {LanguageConsumer, LanguageProvider} from "./Components/LanguageContext";
 
 class App extends Component {
 
     render() {
         return (
             <LanguageProvider>
-                <div>
+                <LanguageConsumer>
+                    {({lang = ''}) => (
+                <div className={lang == "en" ? "latin-font" : "cyrillic-font" }>
                     <Navbar/>
                     <Switch>
                         <Route exact path="/" component={Home}/>
@@ -33,7 +35,8 @@ class App extends Component {
                         <Route exact path="/dev" component={InDevelopment}/>
                         <Route component={Error}/>
                     </Switch>
-                </div>
+                </div>)}
+                </LanguageConsumer>
             </LanguageProvider>
         );
     }

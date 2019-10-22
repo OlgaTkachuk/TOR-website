@@ -21,7 +21,7 @@ class BlockCatalog extends Component {
                             <p className="catalog-block-text">Cylindrical<br/> and square <br/>vases</p>
                         </div>
                     </Link>
-                    <Link to="/collection/b" style={{textDecoration: 'none'}} className={"news-link-div"}>
+                    <Link to="/news" style={{textDecoration: 'none'}} className={"news-link-div"}>
                         <div className="block-item block-link">
                             <h2 className="letter-catalog-menu">N</h2>
                             <p className="catalog-new-title">New arrivals</p>

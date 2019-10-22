@@ -14,12 +14,11 @@ class DesignBlock extends Component {
                         <>
                             <section className="design-wrapper">
                                 <div className="design-text">
-                                    <p>{content[lang].title}
-                                    </p>
-                                    {/*<Link to="/custom" className="button-dark design-button">Explore</Link>*/}
+                                    <p>{content[lang].title}</p>
+                                    <Link to="/custom" className="button-dark design-button">Explore</Link>
                                 </div>
                                 <div className="design-title">
-                                    {/*<h1>onClick={handler()}>{value}</h1>*/}
+                                    <h1>Design your item</h1>
                                     <hr className="hr-same design-hr"/>
                                     <h3>D</h3>
                                 </div>

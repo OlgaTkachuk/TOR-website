@@ -40,21 +40,21 @@ class Navbar extends Component {
             <>
                 <nav className="navbar">
                     <LanguageConsumer>
-                        {({lang, updateLanguage}) => (
+                        {({lang = '', updateLanguage}) => (
                             <>
                             <div className="lang_toggle">
                                 <button value="en" onClick={event => {
                                     updateLanguage(event.target.value);
                                     console.log(lang)
                                 }}
-                                        className={(this.value === "en") ? "lang_button_act" : "lang_button"}>
+                                        className={(lang == "en") ? "lang_button_act" : "lang_button"}>
                                     EN
                                 </button>
                                 <button value="ua" onClick={event => {
                                     updateLanguage(event.target.value);
                                     console.log(lang)
                                 }}
-                                        className={(this.value === "en") ? "lang_button" : "lang_button_act"}>
+                                        className={(lang == "ua") ? "lang_button_act" : "lang_button"}>
                                     UA
                                 </button>
                             </div>
@@ -70,75 +70,59 @@ class Navbar extends Component {
                         <ul className={this.state.isOpen ? "nav-links show-mob-nav" : "nav-links"}>
                             <li>
                                 <NavLink exact to="/"
-                                         activeClassName="active">{"Home"}</NavLink>
+                                         activeClassName="active">{content[lang].navbar_home}</NavLink>
                             </li>
                             <li>
-                                <NavLink exact to="/about" activeClassName="active">About us</NavLink>
+                                <NavLink exact to="/about" activeClassName="active">{content[lang].navbar_about}</NavLink>
                             </li>
                             <li>
-                                <NavLink exact to="/custom" activeClassName="active">Custom Made</NavLink>
+                                <NavLink exact to="/custom" activeClassName="active">{content[lang].navbar_custom}</NavLink>
                             </li>
                             <li className="dropdown-wrapper">
-                                <NavLink exact to="/catalog" activeClassName="active">Catalog</NavLink>
+                                <NavLink exact to="/catalog" activeClassName="active">{content[lang].navbar_catalog}</NavLink>
                                 <div className="dropdown-container">
                                     <ul className="dropdown-column-1">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>Collection
-                                                A</Link>
+                                            <Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_a}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>Collection
-                                            B</Link>
+                                        <li><Link exact to="/collection/b" component={Collection}>{content[lang].navbar_coll_b}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection
-                                            C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_c}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/d" component={Collection}>Collection
-                                            D</Link>
+                                        <li><Link exact to="/collection/d" component={Collection}>{content[lang].navbar_coll_d}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection
-                                            C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_e}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>Collection
-                                            E</Link>
+                                        <li><Link exact to="/collection/e" component={Collection}>{content[lang].navbar_coll_f}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>Collection
-                                            F</Link>
+                                        <li><Link exact to="/collection/f" component={Collection}>{content[lang].navbar_coll_g}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>Collection
-                                            A</Link>
+                                        <li><Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_h}</Link>
                                         </li>
                                     </ul>
                                     <ul className="dropdown-column-2">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>Collection
-                                                A</Link>
+                                            <Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_i}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>Collection
-                                            B</Link>
+                                        <li><Link exact to="/collection/b" component={Collection}>{content[lang].navbar_coll_j}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection
-                                            C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_k}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/d" component={Collection}>Collection
-                                            D</Link>
+                                        <li><Link exact to="/collection/d" component={Collection}>{content[lang].navbar_coll_l}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>Collection
-                                            C</Link>
+                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_m}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>Collection
-                                            E</Link>
+                                        <li><Link exact to="/collection/e" component={Collection}>{content[lang].navbar_coll_n}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>Collection
-                                            F</Link>
+                                        <li><Link exact to="/collection/f" component={Collection}>{content[lang].navbar_coll_o}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>Collection
-                                            A</Link>
+                                        <li><Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_p}</Link>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <NavLink exact to="/contacts" activeClassName="active">Contact Us</NavLink>
+                                <NavLink exact to="/contacts" activeClassName="active">{content[lang].navbar_contact}</NavLink>
                             </li>
                         </ul>
                     </div>
