@@ -18,7 +18,7 @@ class Home extends Component {
         return (
             <div>
                 <LanguageConsumer>
-                    {({lang = '', updateLanguage}) => (
+                    {({lang = ''}) => (
                         <>
                             <Hero>
                                 <Link to="/">
@@ -30,7 +30,7 @@ class Home extends Component {
                             </Hero>
                             <BlockMenu/>
                             <DesignBlock/>
-                            <AboutSection title={"About us"} title_classname={"home-about-title"}/>
+                            <AboutSection title={content[lang].about_us_title} title_classname={"home-about-title"}/>
                             <PlusesSection/>
                             <NewArrivalsHome/>
                             <ContactsHome/>

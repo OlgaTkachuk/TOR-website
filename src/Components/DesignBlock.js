@@ -14,31 +14,18 @@ class DesignBlock extends Component {
                         <>
                             <section className="design-wrapper">
                                 <div className="design-text">
-                                    <p>{content[lang].title}</p>
-                                    <Link to="/custom" className="button-dark design-button">Explore</Link>
+                                    <p>{content[lang].design_text}</p>
+                                    <Link to="/custom" className="button-dark design-button">{content[lang].explore_button}</Link>
                                 </div>
                                 <div className="design-title">
-                                    <h1>Design your item</h1>
+                                    <h1>{content[lang].design_your_item}</h1>
                                     <hr className="hr-same design-hr"/>
-                                    <h3>D</h3>
+                                    <h3>{content[lang].design_your_item_letter}</h3>
                                 </div>
                             </section>
                             <div className="design-mobile-wrapper">
                                 <div className="design-text-mobile">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis
-                                        iaculis
-                                        leo at
-                                        facilisis. Etiam dignissim nulla tincidunt tortor tincidunt luctus sed ut magna.
-                                        Maecenas
-                                        tempus ipsum eget sagittis pretium. Duis ut metus ut est laoreet lobortis. In
-                                        egestas
-                                        posuere neque, nec tincidunt dolor maximus eu. Donec ante mi, tincidunt eget
-                                        nunc
-                                        non,
-                                        dignissim efficitur orci. Maecenas pretium pellentesque lacinia. Aenean aliquam
-                                        consequat
-                                        nunc, eget vehicula justo tincidunt in.
-                                    </p>
+                                    <p>{content[lang].design_text}</p>
                                 </div>
                             </div>
                         </>)}

@@ -22,7 +22,7 @@ class About extends Component {
                                     classname={"letter-about"}/>
                         </Hero>
                         <WhoWeAre/>
-                        <AboutSection2 title={"Our story"} title_classname={"about-about-title"}/>
+                        <AboutSection2 title={content[lang].our_story_title} title_classname={"about-about-title"}/>
                         <Map/>
                         <Advantages/>
                         <Questions/>
