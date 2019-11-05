@@ -1198,3 +1198,20 @@ footer p {
     border-style: none;
     color: black;
 }
+@media screen and (max-width: 900px) {
+    .lang_toggle {
+        margin: 15px 35px 20px 10px;
+    }
+    .menu-img-4 {
+        top: -15px;
+    }
+    .menu-img-5 {
+        bottom: 25px;
+    }
+    .menu-img-5-ukr {
+        bottom: 50px;
+    }
+    .menu-img-2-ukr {
+        top: -80px;
+    }
+}

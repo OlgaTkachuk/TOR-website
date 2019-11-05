@@ -2,147 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7699b606-1a0f-4dd6-a69c-fa67d2d5e8a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/b037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/c011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/c021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/c024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/c040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d046.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d047.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d051.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d052.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d057.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/d058.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f038.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f046.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f052.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f062.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/f063.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_171.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/g_172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/h017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/k005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/k008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/k012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/l028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n041.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n050.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/n052.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/p_043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r001_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r001_363.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/r017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s037.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s072.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s090.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s091.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s095.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/s216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v032.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v033.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/v046.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w070.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w071.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w073.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/w074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x034.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x036.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catalog/x046.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlockCatalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BlockCatalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlockMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BlockMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactsCustom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactsCustom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactsData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CustomMainDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CustomMainDiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CustomOurWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CustomOurWorks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DesignBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DesignBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Trends.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Trends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Collection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Collection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -172,8 +33,9 @@
           <entry key="project.open.time.18" value="4" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="58" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -191,15 +53,15 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="52" />
+          <entry key="ESLintLanguageService" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="60" />
-          <entry key="CSS" value="20439" />
+          <entry key="CSS" value="20662" />
           <entry key="HTML" value="17" />
-          <entry key="JavaScript" value="28451" />
+          <entry key="JavaScript" value="28454" />
           <entry key="SVG" value="23" />
         </counts>
       </usages-collector>
@@ -218,10 +80,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8047" />
+          <entry key="css" value="8270" />
           <entry key="env" value="60" />
           <entry key="html" value="16" />
-          <entry key="js" value="20829" />
+          <entry key="js" value="20832" />
           <entry key="svg" value="23" />
         </counts>
       </usages-collector>
@@ -229,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="370" column="21" selection-start-line="370" selection-start-column="21" selection-end-line="370" selection-end-column="21" />
+            <state relative-caret-position="174">
+              <caret line="1214" column="19" selection-start-line="1214" selection-start-column="19" selection-end-line="1214" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -241,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Catalog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+            <state relative-caret-position="2231">
+              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -250,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/CustomMade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="276">
               <caret line="21" column="38" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
@@ -259,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/BlockCatalog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="103" column="98" selection-start-line="103" selection-start-column="98" selection-end-line="103" selection-end-column="98" />
+            <state relative-caret-position="92">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -268,16 +130,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/content/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="2369">
               <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Contacts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="20">
               <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
             </state>
           </provider>
@@ -286,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ContactForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="2714">
               <caret line="122" column="80" selection-start-line="122" selection-start-column="80" selection-end-line="122" selection-end-column="80" />
             </state>
           </provider>
@@ -295,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="92">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -307,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/CustomMainDiv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="276">
               <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
@@ -316,7 +178,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/BlockMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1389">
+            <state relative-caret-position="207">
               <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
@@ -335,10 +197,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu-img-1</find>
       <find>br</find>
       <find>599px</find>
-      <find>menu-img-5</find>
       <find>custom-card</find>
       <find>carousel-container</find>
       <find>carou</find>
@@ -365,6 +225,8 @@
       <find>catalog</find>
       <find>menu-wrapper h</find>
       <find>img-tort</find>
+      <find>.lang-toggle</find>
+      <find>menu-img-5</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -418,12 +280,12 @@
         <option value="$PROJECT_DIR$/src/pages/About.css" />
         <option value="$PROJECT_DIR$/src/Components/CustomMainDiv.js" />
         <option value="$PROJECT_DIR$/src/Components/BlockMenu.js" />
-        <option value="$PROJECT_DIR$/src/Components/BlockCatalog.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/pages/Catalog.css" />
         <option value="$PROJECT_DIR$/src/Components/ContactForm.js" />
         <option value="$PROJECT_DIR$/src/content/content.js" />
         <option value="$PROJECT_DIR$/src/pages/Contacts.css" />
+        <option value="$PROJECT_DIR$/src/Components/BlockCatalog.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
@@ -533,12 +395,12 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\javascript\tor-website\src\assets\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programming\javascript\tor-website\src\assets\images" />
       <recent name="E:\Programming\javascript\tor-website\src\assets\images\catalog" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Programming\javascript\tor-website\src\assets\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,11 +483,12 @@
       <workItem from="1572608127779" duration="971000" />
       <workItem from="1572637145648" duration="6364000" />
       <workItem from="1572699555580" duration="15120000" />
+      <workItem from="1572959990794" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556378000" />
+    <option name="totallyTimeSpent" value="559662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,11 +501,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.23529412" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.16375199" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.290146" />
@@ -653,7 +517,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50397456" side_tool="true" weight="0.310219" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49602544" visible="true" weight="0.23357664" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49602544" visible="true" weight="0.16970803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -863,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="29" column="107" selection-start-line="29" selection-start-column="107" selection-end-line="29" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="94" column="126" selection-start-line="94" selection-start-column="126" selection-end-line="94" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-538">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,16 +779,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/CustomMainDiv.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/Catalog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="2231">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/CustomMade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/content/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ContactForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="122" column="80" selection-start-line="122" selection-start-column="80" selection-end-line="122" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="92">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -947,59 +817,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CustomMainDiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/BlockMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1389">
-          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/CustomMade.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BlockCatalog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="103" column="98" selection-start-line="103" selection-start-column="98" selection-end-line="103" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="370" column="21" selection-start-line="370" selection-start-column="21" selection-end-line="370" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Catalog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ContactForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="122" column="80" selection-start-line="122" selection-start-column="80" selection-end-line="122" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/content/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="103" column="124" selection-start-line="103" selection-start-column="124" selection-end-line="103" selection-end-column="124" />
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Contacts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="20">
           <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BlockCatalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1214" column="19" selection-start-line="1214" selection-start-column="19" selection-end-line="1214" selection-end-column="19" />
         </state>
       </provider>
     </entry>
