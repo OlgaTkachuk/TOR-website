@@ -73,35 +73,35 @@ class BlockCatalog extends Component {
                                     <p className="catalog-block-text text-2">{content[lang].coll_b_title}</p>
                                 </div>
                             </Link>
-                            <Link to="/collection/c">
+                            <Link to="/collection/c" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2">{content[lang].coll_c_title}</p>
+                                    <p className="catalog-block-text text-2 text-long ">{content[lang].coll_c_title}</p>
                                 </div>
                             </Link>
-                            <Link to="/collection/g">
+                            <Link to="/collection/g" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2">{content[lang].coll_g_title}</p>
+                                    <p className="catalog-block-text text-2 text-long ">{content[lang].coll_g_title}</p>
                                 </div>
                             </Link>
-                            <Link to="/collection/h">
+                            <Link to="/collection/h" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
                                     <p className="catalog-block-text text-2">{content[lang].coll_h_title}</p></div>
                             </Link>
-                            <Link to="/collection/r">
+                            <Link to="/collection/r" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
                                     <div className="block-item">
                                         <p className="catalog-block-text text-2">{content[lang].coll_r_title}</p>
                                     </div>
                                 </div>
                             </Link>
-                            <Link to="/collection/v">
+                            <Link to="/collection/v" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2">{content[lang].coll_v_title}</p>
+                                    <p className="catalog-block-text text-2 text-long ">{content[lang].coll_v_title}</p>
                                 </div>
                             </Link>
-                            <Link to="/collection/x">
+                            <Link to="/collection/x" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2">{content[lang].coll_v_title}</p>
+                                    <p className="catalog-block-text text-2 text-long ">{content[lang].coll_x_title}</p>
                                 </div>
                             </Link>
 

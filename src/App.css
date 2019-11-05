@@ -29,7 +29,7 @@ button:focus, .logo:focus {
 .logo_svg {
     height: 210px;
     padding: 10px 0 5px 0;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 15px;
     position: relative;
     z-index: 0;
 }
@@ -1054,9 +1054,9 @@ button:focus, .logo:focus {
         box-shadow: none;
     }
 
-    .new-arr-img {
-        height: 40vh;
-    }
+    /*.new-arr-img {*/
+        /*height: 40vh;*/
+    /*}*/
 
     .new-arr-section {
         padding: 10px 0 40px 0;

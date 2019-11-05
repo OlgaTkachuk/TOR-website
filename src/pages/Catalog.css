@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 .letter-catalog {
@@ -83,7 +84,7 @@
     top: 30px;
     left: 25px;
     opacity: 0.5;
-   }
+}
 
 .catalog-block-text {
     font-size: 1.4rem;
@@ -154,10 +155,11 @@
         text-align: center;
         right: 0;
         top: 25px;
+        width: 100vw;
         text-decoration: none;
     }
 
-    .block-menu-wrapper br{
+    .block-menu-wrapper br {
         display: none;
     }
 
@@ -209,5 +211,11 @@
 @media screen and (min-width: 900px) {
     .arrow-small-icon {
         display: none;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .text-long {
+        padding-top: 10px;
     }
 }
