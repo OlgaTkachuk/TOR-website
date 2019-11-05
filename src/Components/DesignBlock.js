@@ -10,7 +10,7 @@ class DesignBlock extends Component {
         return (
             <>
                 <LanguageConsumer>
-                {({lang = ''}) => (
+                    {({lang = ''}) => (
                         <>
                             <section className="design-wrapper">
                                 <div className="design-text">

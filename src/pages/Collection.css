@@ -25,6 +25,7 @@
 }
 .card-collection-img {
     height: 25vw;
+    padding: 30px;
 }
 .card-collection-title {
     font-weight: 700;

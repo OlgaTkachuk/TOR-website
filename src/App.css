@@ -127,7 +127,7 @@ button:focus, .logo:focus {
     .dropdown-container {
         display: none;
         width: 500px;
-        height: 370px;
+        height: 315px;
         background-color: white;
         position: absolute;
 
@@ -143,7 +143,6 @@ button:focus, .logo:focus {
 
     .dropdown-container li:hover {
         background-color: #e0e0e0;
-
     }
 
     .dropdown-wrapper:hover .dropdown-container {
@@ -368,14 +367,15 @@ button:focus, .logo:focus {
 .menu-wrapper h2 {
     color: rgba(57, 63, 77, 1);
     text-align: right;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    font-weight: 500;
     z-index: 50;
     position: relative;
 }
 
 .text-wrapper {
     float: right;
-    width: 180px;
+    width: 150px;
     margin: 15px 15px 0 0;
 }
 
@@ -393,15 +393,21 @@ button:focus, .logo:focus {
 
 .menu-img-2 {
     max-height: 160px;
-    /*margin: 10px 0 0 30px;*/
     opacity: 0.5;
     top: -70px;
     left: -80px;
 }
 
+.menu-img-2-ukr {
+    top: -90px;
+    left: -80px;
+}
+.menu-card-big-text {
+    width: 195px;
+}
+
 .menu-img-1 {
     max-height: 160px;
-    /*margin: 10px 0 0 15px;*/
     opacity: 0.4;
     top: -100px;
     right: -110px;
@@ -421,12 +427,18 @@ button:focus, .logo:focus {
     left: -47px;
     max-height: 110px;
 }
+.menu-card-smaller {
+    width: 140px;
+}
 
 .menu-img-5 {
     max-height: 130px;
     opacity: 0.6;
-    left: -35px;
-    bottom: 65px;
+    left: -45px;
+    bottom: 30px;
+}
+.menu-img-5-ukr {
+    bottom: 60px
 }
 
 .menu-img-6 {

@@ -55,7 +55,7 @@ textarea {
 }
 
 .contacts-par {
-    max-width: 80%;
+    max-width: 70%;
     color: white;
     size: 1rem;
     margin: 12% auto;
@@ -177,11 +177,12 @@ input, textarea:focus {
 }
 
 #one {
-    margin-top: 25px;
+    margin-top: 35px;
+    margin-bottom: 70px;
 }
 
-#two {
-    margin-bottom: 40px;
+#three {
+    margin-bottom: 80px;
 }
 
 #four {

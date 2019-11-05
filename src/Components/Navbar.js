@@ -23,6 +23,7 @@ class Navbar extends Component {
     toggleLanguage = lang => {
         this.setState({selectedLanguage: lang});
     }
+    navbar_coll_x;
 
     handleMouseHover() {
         this.setState(this.toggleHoverState);
@@ -83,40 +84,36 @@ class Navbar extends Component {
                                 <div className="dropdown-container">
                                     <ul className="dropdown-column-1">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_a}</Link>
-                                        </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>{content[lang].navbar_coll_b}</Link>
+                                            <Link exact to="/collection/b" component={Collection}>{content[lang].navbar_coll_b}</Link>
                                         </li>
                                         <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_c}</Link>
                                         </li>
                                         <li><Link exact to="/collection/d" component={Collection}>{content[lang].navbar_coll_d}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_e}</Link>
+                                        <li><Link exact to="/collection/f" component={Collection}>{content[lang].navbar_coll_f}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>{content[lang].navbar_coll_f}</Link>
+                                        <li><Link exact to="/collection/g" component={Collection}>{content[lang].navbar_coll_g}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>{content[lang].navbar_coll_g}</Link>
+                                        <li><Link exact to="/collection/h" component={Collection}>{content[lang].navbar_coll_h}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_h}</Link>
+                                        <li><Link exact to="/collection/k" component={Collection}>{content[lang].navbar_coll_k}</Link>
                                         </li>
                                     </ul>
                                     <ul className="dropdown-column-2">
                                         <li>
-                                            <Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_i}</Link>
+                                            <Link exact to="/collection/l" component={Collection}>{content[lang].navbar_coll_l}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/b" component={Collection}>{content[lang].navbar_coll_j}</Link>
+                                        <li><Link exact to="/collection/n" component={Collection}>{content[lang].navbar_coll_n}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_k}</Link>
+                                        <li><Link exact to="/collection/r" component={Collection}>{content[lang].navbar_coll_r}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/d" component={Collection}>{content[lang].navbar_coll_l}</Link>
+                                        <li><Link exact to="/collection/s" component={Collection}>{content[lang].navbar_coll_s}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/c" component={Collection}>{content[lang].navbar_coll_m}</Link>
+                                        <li><Link exact to="/collection/v" component={Collection}>{content[lang].navbar_coll_v}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/e" component={Collection}>{content[lang].navbar_coll_n}</Link>
+                                        <li><Link exact to="/collection/w" component={Collection}>{content[lang].navbar_coll_w}</Link>
                                         </li>
-                                        <li><Link exact to="/collection/f" component={Collection}>{content[lang].navbar_coll_o}</Link>
-                                        </li>
-                                        <li><Link exact to="/collection/a" component={Collection}>{content[lang].navbar_coll_p}</Link>
+                                        <li><Link exact to="/collection/x" component={Collection}>{content[lang].navbar_coll_x}</Link>
                                         </li>
                                     </ul>
                                 </div>

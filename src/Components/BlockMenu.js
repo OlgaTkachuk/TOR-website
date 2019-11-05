@@ -20,40 +20,40 @@ class BlockMenu extends Component {
                         <div className="menu-wrapper">
                             <div className="cards-column column-2">
                                 <div className="cards-row">
-                                    <Link to="/dev">
+                                    <Link to="/collection/n">
                                         <div className="menu-card-2 menu-card-2-mob">
-                                            <div className="text-wrapper text-wrapper-1">
-                                                <h2>{content[lang].coll_a_title}</h2>
+                                            <div className={(lang == "ua") ? "text-wrapper text-wrapper-1 menu-card-big-text" : "text-wrapper text-wrapper-1"}>
+                                                <h2>{content[lang].coll_n_title}</h2>
                                             </div>
                                             <img src={vaza_kvadrat} className="menu-img-1 menu-img-same" alt={''}/>
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="cards-row">
-                                    <Link to="/dev">
+                                    <Link to="/collection/d">
                                         <div className="menu-card-1 menu-card-1-1">
-                                            <div className="text-wrapper">
-                                                <h2>{content[lang].coll_b_title}</h2>
+                                            <div className={(lang == "ua") ? "text-wrapper menu-card-smaller" : "text-wrapper"}>
+                                                <h2>{content[lang].coll_d_title}</h2>
                                             </div>
                                             <img src={bokal} className="menu-img-same menu-img-4" alt={''}/>
                                         </div>
                                     </Link>
-                                    <Link to="/dev">
+                                    <Link to="/collection/s">
                                         <div className="menu-card-1 menu-card-1-1">
                                             <div className="text-wrapper">
-                                                <h2>{content[lang].coll_c_title}</h2>
+                                                <h2>{content[lang].coll_s_title}</h2>
                                             </div>
                                             <img src={dekanter} className="menu-img-same menu-img-3" alt={''}/>
                                         </div>
                                     </Link>
                                 </div>
                                 <div className="cards-row">
-                                    <Link to="/dev">
+                                    <Link to="/collection/k">
                                         <div className="menu-card-2">
-                                            <div className="text-wrapper">
-                                                <h2>{content[lang].coll_d_title}</h2>
+                                            <div className={(lang == "ua") ? "text-wrapper menu-card-big-text" : "text-wrapper"}>
+                                                <h2>{content[lang].coll_k_title}</h2>
                                             </div>
-                                            <img src={tort} className="menu-img-2 menu-img-same" alt={''}/>
+                                            <img src={tort} className={(lang == "ua") ? "menu-img-same menu-img-2 menu-img-2-ukr" : "menu-img-same menu-img-2" } alt={''}/>
                                         </div>
                                     </Link>
                                 </div>
@@ -61,7 +61,7 @@ class BlockMenu extends Component {
                             <div className="cards-column column-1">
                                 <div className="cards-row">
                                     <div className="menu-title-div">
-                                        <Link to="/dev">
+                                        <Link to="/catalog">
                                             <div className="title-wrapper">
                                                 <h1>{content[lang].our_collections}</h1>
                                             </div>
@@ -71,12 +71,12 @@ class BlockMenu extends Component {
                                     </div>
                                 </div>
                                 <div className="cards-row">
-                                    <Link to="/dev">
+                                    <Link to="/collection/w">
                                         <div className="menu-card-1">
-                                            <div className="text-wrapper">
-                                                <h2>{content[lang].coll_e_title}</h2>
+                                            <div className={(lang == "ua") ? "text-wrapper menu-card-big-text" : "text-wrapper"}>
+                                                <h2>{content[lang].coll_w_title}</h2>
                                             </div>
-                                            <img src={vaza_pidl} className="menu-img-same menu-img-5" alt={''}/>
+                                            <img src={vaza_pidl} className={(lang == "ua") ? "menu-img-same menu-img-5 menu-img-5-ukr" : "menu-img-same menu-img-5" } alt={''}/>
                                         </div>
                                     </Link>
                                     <Link to="/dev">

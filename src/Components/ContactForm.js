@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import * as emailjs from 'emailjs-com';
 import paperclip from '../assets/images/paperclip.svg';
+import {LanguageConsumer} from "./LanguageContext";
+import {content} from "../content/content";
 
 class ContactForm extends Component {
     constructor(props) {
@@ -104,7 +106,7 @@ class ContactForm extends Component {
             "country": this.state.country,
             "company": this.state.company,
             "message": this.state.message
-        },"user_HhA5epB1UYyjVtpzFdDan" )
+        }, "user_HhA5epB1UYyjVtpzFdDan")
             .then(res => {
                 console.log("message sent")
             })
@@ -113,28 +115,34 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <div className="contacts-form">
-                <h1 className="section-title contacts-page-title elem-hide-mob">touch</h1>
-                <hr className="hr-same hr-contacts elem-hide-mob"/>
-                <p className="contacts-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. </p>
-                <form className="form-wrapper" onSubmit={this.handleSubmit}>
-                    <input type="text"  required value={this.state.name} onChange={this.handleName}
-                           placeholder="name*"/>
-                    <input type="email"  required value={this.state.email} placeholder="e-mail*"
-                           onChange={this.handleEmail}/>
-                    <input type="text"  value={this.state.company} onChange={this.handleCompany}
-                           placeholder="company`s name"/>
-                    <input type="text" value={this.state.country} onChange={this.handleCountry}
-                           placeholder="country"/>
-                    <input type="file" id="file" value={this.state.file} onChange={this.handleFile} className="hide-file-input" />
-                    <label htmlFor="file" className="custom-file-input">Choose file<img src={paperclip} className="paperclip"/></label>
-                    <textarea onChange={this.handleMessage} placeholder="Enter your message here..."
-                              value={this.state.message}/>
-                    <button type="submit" onSubmit={this.handleSubmit} className="button-dark button-form">Send message</button>
-                </form>
-            </div>
+            <LanguageConsumer>
+                {({lang = ''}) => (
+                    <div className="contacts-form">
+                        <h1 className="section-title contacts-page-title elem-hide-mob">{content[lang].touch}</h1>
+                        <hr className="hr-same hr-contacts elem-hide-mob"/>
+                        <p className="contacts-par">{content[lang].contacts_text} </p>
+                        <form className="form-wrapper" onSubmit={this.handleSubmit}>
+                            <input type="text" required value={this.state.name} onChange={this.handleName}
+                                   placeholder={content[lang].name}/>
+                            <input type="email" required value={this.state.email} placeholder={content[lang].email}
+                                   onChange={this.handleEmail}/>
+                            <input type="text" value={this.state.company} onChange={this.handleCompany}
+                                   placeholder={content[lang].company}/>
+                            <input type="text" value={this.state.country} onChange={this.handleCountry}
+                                   placeholder={content[lang].country}/>
+                            <input type="file" id="file" value={this.state.file} onChange={this.handleFile}
+                                   className="hide-file-input"/>
+                            <label htmlFor="file" className="custom-file-input">{content[lang].choose_file}<img src={paperclip}
+                                                                                                className="paperclip"/></label>
+                            <textarea onChange={this.handleMessage} placeholder={content[lang].enter_mess}
+                                      value={this.state.message}/>
+                            <button type="submit" onSubmit={this.handleSubmit} className="button-dark button-form">
+                                {content[lang].send_mess}
+                            </button>
+                        </form>
+                    </div>
+                )}
+            </LanguageConsumer>
         );
     }
 }
