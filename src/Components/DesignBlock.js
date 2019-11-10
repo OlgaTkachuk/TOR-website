@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import LanguageContext, {LanguageConsumer} from "./LanguageContext";
 import Banner from "./Banner";
 import {content} from "../content/content";
+import video from '../assets/video.mp4'
 
 class DesignBlock extends Component {
 
@@ -13,6 +14,9 @@ class DesignBlock extends Component {
                     {({lang = ''}) => (
                         <>
                             <section className="design-wrapper">
+                                <video autoPlay muted loop id="myVideo">
+                                    <source src={video} type="video/mp4"/>
+                                </video>
                                 <div className="design-text">
                                     <p>{content[lang].design_text}</p>
                                     <Link to="/custom" className="button-dark design-button">{content[lang].explore_button}</Link>

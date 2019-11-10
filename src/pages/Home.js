@@ -12,6 +12,7 @@ import {Link} from "react-router-dom";
 import logo_final from "../assets/images/logo_white.svg";
 import {LanguageConsumer} from "../Components/LanguageContext";
 import {content} from "../content/content";
+import video from "../assets/video.mp4";
 
 class Home extends Component {
     render() {
@@ -26,7 +27,8 @@ class Home extends Component {
                                 </Link>
                                 <Banner letter={"T"} title={content[lang].home_hero_title}
                                         subtitle={content[lang].home_hero_subtitle}
-                                        classname={"letter-home"}/>
+                                        classname={"letter-home"}>
+                                </Banner>
                             </Hero>
                             <BlockMenu/>
                             <DesignBlock/>

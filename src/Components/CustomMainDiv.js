@@ -19,12 +19,12 @@ const CustomMainDiv = () => {
                         <div className="div-custom-left">
                             <div className="background-div-custom">
                                 <ul>
-                                    <li className="li-heading">Designing</li>
-                                    <li className="li-item">Lorem ipsum dolor sit amet ipsum dolor sit amet</li>
-                                    <li className="li-heading">Technical Assisting</li>
-                                    <li className="li-item">Lorem ipsum dolor sit amet ipsum dolor sit amet</li>
-                                    <li className="li-heading">Implementation</li>
-                                    <li className="li-item">Lorem ipsum dolor sit amet ipsum dolor sit amet</li>
+                                    <li className="li-heading">{content[lang].designing}</li>
+                                    <li className="li-item">{content[lang].design_par}</li>
+                                    <li className="li-heading">{content[lang].tech_assisting}</li>
+                                    <li className="li-item">{content[lang].tech_assisting_par}</li>
+                                    <li className="li-heading">{content[lang].implementing}</li>
+                                    <li className="li-item">{content[lang].implementing_par}</li>
                                 </ul>
                             </div>
                         </div>

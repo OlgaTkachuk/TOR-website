@@ -16,7 +16,7 @@ class BlockMenu extends Component {
         return (
             <LanguageConsumer>
                 {({lang = ''}) => (
-                    <section>
+                    <section className="menu-cont">
                         <div className="menu-wrapper">
                             <div className="cards-column column-2">
                                 <div className="cards-row">

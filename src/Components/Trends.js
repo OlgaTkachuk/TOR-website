@@ -31,7 +31,7 @@ class Trends extends Component {
                             <h1 className="section-title trend-card-title">Celtic Glass</h1>
                             <hr className="hr-same hr-trend-card"/>
                             <p>You’re not going to find a more talented and professional group of glass art artists in one place. We are constantly creating something fresh and exciting to always stay in trend. Here you can see all our latest makings! </p>
-                            <button className="button-dark button-article" onClick={this.handleClick} value='1'>Explore</button>
+                            <button className="button-dark button-article" onClick={this.handleClick} value='1'>{content[lang].explore_button}</button>
                         </div>
                         <div className={(this.state.articleIsOpen && this.state.articleId==='1') ? "trend-article-wrapper" : "article-hide"}>
                             <h2 className="trend-card-title trend-article-title">Celtic Glass</h2>

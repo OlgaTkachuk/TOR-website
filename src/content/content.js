@@ -101,7 +101,19 @@ export const content = {
         our_new_arrivals:"Our New Arrivals",
         industry_trends:"Industry trends",
         news_text: "You’re not going to find a more talented and professional group of glass art artists in one place. We are constantly creating something fresh and exciting to always stay in trend. Here you can see all our latest makings!",
-        contacts_text :"Interested in our production or have any questions? Feel free to contact us through the form below! "
+        contacts_text :"Interested in our production or have any questions? Feel free to contact us through the form below! ",
+        map_text_1: "Our professionalism is proved by our clients all over the world. We work\n" +
+            "                            with the regular customers from France, Germany, Canada, Netherlands, China, Ukraine and\n" +
+            "                            many others since 1992. Our clients are always our highest priority and we are constantly\n" +
+            "                            improving to produce only the highest quality production for you. ",
+        designing: "Designing",
+        design_par: "Help with developing and designing your conception",
+        tech_assisting: "Technical assisting",
+        tech_assisting_par: "Help to choose the best manufacturing option for you",
+        implementing:"Implementing",
+        implementing_par: "Supporting at each step to the realisation",
+        coarse_glass: "Coarse Glass Vase",
+        flower_vase: "Flower Vase"
     },
     ua: {
         navbar_home: "Головна",
@@ -147,7 +159,7 @@ export const content = {
         coll_l_title: "Світильники",
         coll_b_title: "Фруктовниці, цукерниці, ковпаки",
         coll_c_title: "Вази різної конфігурації та призначення",
-        coll_g_title: "Вази ріного призначення із грубого скла",
+        coll_g_title: "Вази різного призначення із грубого скла",
         coll_h_title: "Сортовий посуд",
         coll_r_title: "Прес вироби",
         coll_v_title: "Вироби із кришкою, кенді бар, фруктовниці",
@@ -201,6 +213,14 @@ export const content = {
         industry_trends:"Тренди індустрії",
         news_text: "Наша команда професіоналів постійно розвивається аби робити для Вас лише найкращу та найсучаснішу продукцію! ",
         contacts_text :"Маєте питання або хочете замовити нашу продукцію? Надішліть повідомлення і ми обов'язково Вам допоможемо",
-
+        map_text_1: "Наш професіоналізм підтверджено клієнтами з усього світу, які довіряють нам. Ми співпрацюємо з постійними клієнтами з Канади, Китаю, Франції, Німеччини, Нідерландів, України та багатьма іншими. З 1992 року наші клієнти були і залишаються нашим приорітетом, тому при постійно розвиваємось аби виготовляти для Вас лише продукцію найвищої якості.",
+        designing: "Проектування",
+        design_par: "Допоможемо розробити дизайн за Вашим бажанням",
+        tech_assisting: "Технічне консультування",
+        tech_assisting_par: "Оберемо найкращий спосіб виготовлення аби досягти найвищої якості продукції",
+        implementing: "Втілення у життя",
+        implementing_par: "Супроводжуємо на кожномі етапі до втілення у життя",
+        coarse_glass: "Ваза із грубого скла",
+        flower_vase: "Ваза для квітів"
     }
 };

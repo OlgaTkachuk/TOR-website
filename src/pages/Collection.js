@@ -4,7 +4,8 @@ import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
 import products from "../data";
 import './Collection.css'
-import {Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
+import {LanguageConsumer} from "../Components/LanguageContext";
 
 class Collection extends Component {
     render() {
@@ -16,15 +17,20 @@ class Collection extends Component {
                 let article = product.item_article;
                 let title = product.item_title;
                 let photo = product.item_photo;
-                console.log(article, title, photo);
-                return <div className="card-collection">
-                    <img src={photo} className="card-collection-img"/>
-                    <div className="text-coll-wrapper">
-                        <h3 className="card-collection-title">{title}</h3>
-                        <p className="card-collection-article">{article}</p>
-                        <Link to="/contacts" className="item-button">Order</Link>
-                    </div>
-                </div>
+                return (
+                    <LanguageConsumer>
+                        {({lang = ''}) => (
+                            <div className="card-collection">
+                                <img src={photo} className="card-collection-img"/>
+                                <div className="text-coll-wrapper">
+                                    <h3 className="card-collection-title">{title[lang]}</h3>
+                                    <p className="card-collection-article">{article}</p>
+                                    <Link to="/contacts" className="item-button">Order</Link>
+                                </div>
+                            </div>
+                        )}
+                    </LanguageConsumer>
+                )
             }
         }
         return (
