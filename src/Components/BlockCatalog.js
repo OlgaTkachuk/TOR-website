@@ -56,8 +56,9 @@ class BlockCatalog extends Component {
                             </Link>
                             <Link to="/collection/k" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <img src={cake_k} className="img-catalog img-cake hide-img-mob"/>
-                                    <p className="catalog-block-text text-2 text-short">{content[lang].coll_k_title}</p>
+                                    <p className="catalog-block-text text-long text-2 ">{content[lang].coll_k_title}</p>
+                                    <img src={cake_k} className={(lang == "ua") ? "img-catalog img-cake img-cake-ukr hide-img-mob" : "img-catalog img-cake img-cake1 hide-img-mob"}/>
+
                                 </div>
                             </Link>
                             <Link to="/collection/w" style={{textDecoration: 'none'}}>
@@ -75,7 +76,7 @@ class BlockCatalog extends Component {
                             <Link to="/collection/l" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
                                     <img src={lamp_l} className="img-catalog hide-img-mob"/>
-                                    <p className="catalog-block-text text-2 text-short">{content[lang].coll_l_title}</p>
+                                    <p className="catalog-block-text text-2 text-long">{content[lang].coll_l_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/b" style={{textDecoration: 'none'}}>

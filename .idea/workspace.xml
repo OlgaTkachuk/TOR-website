@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7699b606-1a0f-4dd6-a69c-fa67d2d5e8a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cake_k.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/glass_c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/glass_h.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/lamp_l.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/lid_v.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/press_r.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sphere_x.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vase_g.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BlockCatalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BlockCatalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CustomOurWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CustomOurWorks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NewArrivalsCarousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Collection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Collection.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,7 +43,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="CSS" value="55" />
+          <entry key="CSS" value="56" />
           <entry key="HTML" value="9" />
           <entry key="Image" value="19" />
           <entry key="JSON" value="4" />
@@ -75,15 +61,15 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="60" />
-          <entry key="CSS" value="21618" />
+          <entry key="CSS" value="21686" />
           <entry key="HTML" value="17" />
-          <entry key="JavaScript" value="32033" />
+          <entry key="JavaScript" value="32103" />
           <entry key="SVG" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="48" />
+          <entry key="css" value="49" />
           <entry key="env" value="2" />
           <entry key="html" value="6" />
           <entry key="js" value="179" />
@@ -96,10 +82,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9226" />
+          <entry key="css" value="9294" />
           <entry key="env" value="60" />
           <entry key="html" value="16" />
-          <entry key="js" value="24411" />
+          <entry key="js" value="24481" />
           <entry key="svg" value="23" />
         </counts>
       </usages-collector>
@@ -122,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/BlockCatalog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="107" column="80" selection-start-line="107" selection-start-column="80" selection-end-line="107" selection-end-column="80" />
+            <state relative-caret-position="178">
+              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -143,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Catalog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
+            <state relative-caret-position="233">
+              <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -455,12 +441,12 @@
       <workItem from="1573160373819" duration="15351000" />
       <workItem from="1573368531428" duration="6060000" />
       <workItem from="1573486872856" duration="9523000" />
-      <workItem from="1573583262336" duration="5738000" />
+      <workItem from="1573583262336" duration="6642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="602193000" />
+    <option name="totallyTimeSpent" value="603097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +464,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.11685215" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.11685215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.290146" />
@@ -489,7 +475,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50397456" side_tool="true" weight="0.310219" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49602544" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49602544" visible="true" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -784,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/BlockCatalog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="107" column="80" selection-start-line="107" selection-start-column="80" selection-end-line="107" selection-end-column="80" />
+        <state relative-caret-position="178">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -794,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Catalog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="140" column="15" selection-start-line="140" selection-start-column="15" selection-end-line="140" selection-end-column="15" />
+        <state relative-caret-position="233">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
         </state>
       </provider>
     </entry>
