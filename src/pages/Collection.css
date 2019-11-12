@@ -7,6 +7,7 @@
     margin: 5% auto;
     max-width: 930px;
 }
+
 .card-collection {
     background-color: transparent;
     width: 25%;
@@ -17,43 +18,50 @@
     padding-bottom: 7px;
     position: relative;
 }
+
 .card-collection:hover {
-    -webkit-box-shadow: -1px 2px 15px 5px rgba(0,0,0,0.1);
-    -moz-box-shadow: -1px 2px 15px 5px rgba(0,0,0,0.1);
-    box-shadow: -1px 2px 15px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.1);
     transition: 0.2s;
 }
+
 .card-collection-img {
     height: 25vw;
     padding: 30px;
 }
+
 .card-collection-title {
     font-weight: 700;
     font-size: 1rem;
     text-align: center;
 }
+
 .card-collection-article {
     text-align: center;
     font-size: 0.9rem
 }
+
 .text-coll-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
 
-@media screen and (max-width: 599px){
+@media screen and (max-width: 599px) {
     .card-collection {
         width: 50%;
         justify-content: center;
         padding: 5px 10px;
     }
+
     .card-collection-img {
         height: 30vh;
         padding: 0;
     }
 }
-@media screen and (min-width: 1300px){
+
+@media screen and (min-width: 1300px) {
 
     .card-collection-img {
         height: 35vh;
@@ -77,6 +85,19 @@
     left: 20px;
     /*bottom: -360px;*/
 }
-.card-collection:hover .item-button{
+
+.card-collection:hover .item-button {
     display: initial;
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px ) {
+    .item-button {
+        width: 20vw
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .item-button {
+        width: 40vw;
+    }
 }

@@ -23,26 +23,26 @@ const NewArrivalsCarousel = () => {
                                         <div className="img-container-custom-car">
                                             <img src={vases} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
+                                        <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
                                             <img src={round} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
+                                        <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
                                             <img src={prod6} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
+                                        <h2 className="cards-new-text">{content[lang].flower_vase}</h2>
                                     </div>
-                                    <div className="news-card">
-                                        <div className="img-container-custom-car">
-                                            <img src={prod6} className="custom-img trends-img"/>
-                                        </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
-                                    </div>
+                                    {/*<div className="news-card">*/}
+                                        {/*<div className="img-container-custom-car">*/}
+                                            {/*<img src={prod6} className="custom-img trends-img"/>*/}
+                                        {/*</div>*/}
+                                        {/*<h2 className="cards-new-text">Classic Vase</h2>*/}
+                                    {/*</div>*/}
                                 </Carousel>
                             ) : (
                                 <Carousel slideWidth="200" className="carousel-container-news" cellAlign="left">
@@ -50,26 +50,26 @@ const NewArrivalsCarousel = () => {
                                         <div className="img-container-custom-car">
                                             <img src={vases} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
+                                        <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
                                             <img src={round} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
-                                    </div>
+                                        <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
+                                </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
                                             <img src={prod6} className="custom-img trends-img"/>
                                         </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
+                                        <h2 className="cards-new-text">{content[lang].flower_vase}</h2>
                                     </div>
-                                    <div className="news-card">
-                                        <div className="img-container-custom-car">
-                                            <img src={prod6} className="custom-img trends-img"/>
-                                        </div>
-                                        <h2 className="cards-new-text">Classic Vase</h2>
-                                    </div>
+                                    {/*<div className="news-card">*/}
+                                        {/*<div className="img-container-custom-car">*/}
+                                            {/*<img src={prod6} className="custom-img trends-img"/>*/}
+                                        {/*</div>*/}
+                                        {/*<h2 className="cards-new-text">Classic Vase</h2>*/}
+                                    {/*</div>*/}
                                 </Carousel>
                             )
                         }

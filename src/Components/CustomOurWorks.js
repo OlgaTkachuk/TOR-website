@@ -25,7 +25,7 @@ class CustomOurWorks extends Component {
                                             <div className="img-container-custom-car">
                                                 <img src={vases} className="custom-img"/>
                                             </div>
-                                            <h2 className="">Classic Vase</h2>
+                                            <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
@@ -37,7 +37,7 @@ class CustomOurWorks extends Component {
                                             <div className="img-container-custom-car">
                                                 <img src={prod6} className="custom-img"/>
                                             </div>
-                                            <h2 className="">Classic Vase</h2>
+                                            <h2 className=""></h2>
                                         </div>
                                     </Carousel>
                                 ) : (
@@ -46,35 +46,26 @@ class CustomOurWorks extends Component {
                                             <div className="img-container-custom-car">
                                                 <img src={vases} className="custom-img"/>
                                             </div>
-                                            <h2 className="">Classic Vase</h2>
+                                            <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
                                                 <img src={round} className="custom-img"/>
                                             </div>
-                                            <h2 className="">Classic Vase</h2>
+                                            <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
                                                 <img src={prod6} className="custom-img"/>
                                             </div>
-                                            <h2 className="">Classic Vase</h2>
+                                            <h2 className=""></h2>
                                         </div>
                                     </Carousel>
                                 )
                             }
                         </Media>
 
-                        <p className="par-custom"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id.
-                            Nibh
-                            mauris cursus mattis molestie a iaculis at erat. Nam at lectus urna duis convallis convallis
-                            tellus id. Sagittis vitae et leo duis. Dolor purus non enim praesent elementum facilisis
-                            leo. Et
-                            pharetra pharetra massa massa ultricies mi. Facilisis sed odio morbi quis commodo odio
-                            aenean
-                            sed.</p>
+                        <p className="par-custom">{content[lang].custom_text}</p>
                     </div>
                 )}
             </LanguageConsumer>

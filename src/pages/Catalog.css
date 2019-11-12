@@ -119,12 +119,35 @@
 }
 
 .img-tort {
-    height: 130px;
-    left: 7px;
-    top: 45px;
+    height: 128px;
+    left: 8px;
+    top: 50px;
     opacity: 0.7;
 }
-
+.img-cake {
+    height: 100px;
+    left: 10px;
+    top: 70px;
+}
+.img-coarse{
+    height: 130px;
+    left: 15px;
+    top: 50px;
+}
+.text-short {
+    width: 140px;
+}
+.img-varietal {
+    height: 165px;
+    top: 20px;
+    left: 35px;
+    opacity: 0.45;
+}
+.img-pressed {
+    height: 105px;
+    left: 8px;
+    top: 80px;
+}
 @media screen and (max-width: 599px) {
     .block-menu-wrapper {
         flex-direction: column;

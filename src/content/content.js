@@ -113,7 +113,9 @@ export const content = {
         implementing:"Implementing",
         implementing_par: "Supporting at each step to the realisation",
         coarse_glass: "Coarse Glass Vase",
-        flower_vase: "Flower Vase"
+        flower_vase: "Flower Vase",
+        custom_text: "When it comes to having a custom piece of glass made we will work with you to get you the piece of art glass you are looking for.  We will have the artist that is best suited to build your piece call you can talk with you.  We would love to see any drawings you have to help us see your vision and bring your glass idea to reality.\n" +
+            "For more information or to schedule a consultation, please fill out the form at the bottom of the page"
     },
     ua: {
         navbar_home: "Головна",
@@ -221,6 +223,8 @@ export const content = {
         implementing: "Втілення у життя",
         implementing_par: "Супроводжуємо на кожномі етапі до втілення у життя",
         coarse_glass: "Ваза із грубого скла",
-        flower_vase: "Ваза для квітів"
+        flower_vase: "Ваза для квітів",
+        custom_text: "Якщо йде мова про індивіальні вироби зі скла, ми завжди готові співпрацювати з Вами аби зробити саме те, чого Ви очікуєте. Ми підберемо найкращих майстрів, які зможуть втілити саме Ваші задумки. Якщо у Вас є креслення або малюнки Вашого задуму, Ви моєете надіслати їх нам через контактну форму. Аби дізнатись більше, будь ласка, заповніть нашу форму для зв'язку. "
+
     }
 };

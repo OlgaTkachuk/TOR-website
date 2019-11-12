@@ -1042,7 +1042,10 @@ button:focus, .logo:focus {
     -moz-box-shadow: 11px 31px 32px -19px rgba(0, 0, 0, 0.6);
     box-shadow: 11px 31px 32px -19px rgba(0, 0, 0, 0.6);
 }
-
+.new-arr-card:hover {
+    transform: scale(1.03, 1.03);
+transition: 0.6s;
+}
 .new-arr-hr {
     width: 58vw;
     position: absolute;

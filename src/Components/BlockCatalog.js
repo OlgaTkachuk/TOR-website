@@ -8,6 +8,15 @@ import dekanter from '../assets/images/dekanter.svg'
 import tort from '../assets/images/tort.svg'
 import vaza_pidl from '../assets/images/vaza_pidl.svg'
 import pidsv from '../assets/images/pidsv.svg'
+import lamp_l from '../assets/images/lamp_l.svg'
+import cake_k from '../assets/images/cake_k.svg'
+import glass_c from '../assets/images/glass_c.svg'
+import vase_g from '../assets/images/vase_g.svg'
+import glass_h from '../assets/images/glass_h.svg'
+import press_r from '../assets/images/press_r.svg'
+import lid_v from '../assets/images/lid_v.svg'
+import sphere_x from '../assets/images/sphere_x.svg'
+
 import {LanguageConsumer} from "./LanguageContext";
 import {content} from "../content/content";
 
@@ -47,8 +56,8 @@ class BlockCatalog extends Component {
                             </Link>
                             <Link to="/collection/k" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <img src={tort} className="img-catalog img-tort hide-img-mob"/>
-                                    <p className="catalog-block-text text-2">{content[lang].coll_k_title}</p>
+                                    <img src={cake_k} className="img-catalog img-cake hide-img-mob"/>
+                                    <p className="catalog-block-text text-2 text-short">{content[lang].coll_k_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/w" style={{textDecoration: 'none'}}>
@@ -65,43 +74,51 @@ class BlockCatalog extends Component {
                             </Link>
                             <Link to="/collection/l" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2">{content[lang].coll_l_title}</p>
+                                    <img src={lamp_l} className="img-catalog hide-img-mob"/>
+                                    <p className="catalog-block-text text-2 text-short">{content[lang].coll_l_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/b" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
+                                    <img src={tort} className="img-catalog img-tort hide-img-mob"/>
                                     <p className="catalog-block-text text-2">{content[lang].coll_b_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/c" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
+                                    <img src={glass_c} className="img-catalog hide-img-mob"/>
                                     <p className="catalog-block-text text-2 text-long ">{content[lang].coll_c_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/g" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
+                                    <img src={vase_g} className="img-catalog img-coarse hide-img-mob"/>
                                     <p className="catalog-block-text text-2 text-long ">{content[lang].coll_g_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/h" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
+                                    <img src={glass_h} className="img-catalog img-varietal hide-img-mob"/>
                                     <p className="catalog-block-text text-2">{content[lang].coll_h_title}</p></div>
                             </Link>
                             <Link to="/collection/r" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
                                     <div className="block-item">
-                                        <p className="catalog-block-text text-2">{content[lang].coll_r_title}</p>
+                                        <img src={press_r} className="img-catalog img-pressed hide-img-mob"/>
+                                        <p className="catalog-block-text text-2 " >{content[lang].coll_r_title}</p>
                                     </div>
                                 </div>
                             </Link>
                             <Link to="/collection/v" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
+                                    <img src={lid_v} className="img-catalog  hide-img-mob"/>
                                     <p className="catalog-block-text text-2 text-long ">{content[lang].coll_v_title}</p>
                                 </div>
                             </Link>
                             <Link to="/collection/x" style={{textDecoration: 'none'}}>
                                 <div className="block-item">
-                                    <p className="catalog-block-text text-2 text-long ">{content[lang].coll_x_title}</p>
+                                    <img src={sphere_x} className="img-catalog img-coarse hide-img-mob"/>
+                                    <p className="catalog-block-text text-2 text-short">{content[lang].coll_x_title}</p>
                                 </div>
                             </Link>
 

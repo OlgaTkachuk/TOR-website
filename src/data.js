@@ -146,172 +146,274 @@ export default [{
     item_collection: "K"
 }, {
     item_article: "K005",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: k005,
     item_collection: "K"
 }, {
     item_article: "K008",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: k008,
     item_collection: "K"
 }, {
     item_article: "K012",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: k012,
     item_collection: "K"
 }, {
     item_article: "N005",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Квадратна Ваза"
+    },
     item_photo: n005,
     item_collection: "N"
 }, {
     item_article: "N007",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Квадратна Ваза"
+    },
     item_photo: n007,
     item_collection: "N"
 }, {
     item_article: "N012",
-    item_title: "Round Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза"
+    },
     item_photo: n012,
     item_collection: "N"
 }, {
     item_article: "N013",
-    item_title: "Round Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза"
+    },
     item_photo: n013,
     item_collection: "N"
 }, {
     item_article: "N017",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза"
+    },
     item_photo: n017,
     item_collection: "N"
 }, {
     item_article: "N022",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза"
+    },
     item_photo: n022,
     item_collection: "N"
 }, {
     item_article: "N040",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза"
+    },
     item_photo: n040,
     item_collection: "N"
 }, {
     item_article: "N041",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза Квадрат"
+    },
     item_photo: n041,
     item_collection: "N"
 }, {
     item_article: "N050",
-    item_title: "Round Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза Квадрат"
+    },
     item_photo: n050,
     item_collection: "N"
 }, {
     item_article: "N052",
-    item_title: "Square Vase",
+    item_title: {
+        "en": "Square Vase",
+        "ua": "Ваза Квадрат"
+    },
     item_photo: n052,
     item_collection: "N"
 }, {
     item_article: "F014",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f014,
     item_collection: "F"
 }, {
     item_article: "F015",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f015,
     item_collection: "F"
 }, {
     item_article: "F017",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f017,
     item_collection: "F"
 }, {
     item_article: "F018",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f018,
     item_collection: "F"
 }, {
     item_article: "F037",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f037,
     item_collection: "F"
 }, {
     item_article: "F038",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f038,
     item_collection: "F"
 }, {
     item_article: "F045",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f045,
     item_collection: "F"
 }, {
     item_article: "F046",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f046,
     item_collection: "F"
 }, {
     item_article: "F052",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f052,
     item_collection: "F"
 }, {
     item_article: "F053",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f053,
     item_collection: "F"
 }, {
     item_article: "F062",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f062,
     item_collection: "F"
 }, {
     item_article: "F063",
-    item_title: "Candlestick",
+    item_title: {
+        "en": "Candlestick",
+        "ua": "Підсвічник"
+    },
     item_photo: f063,
     item_collection: "F"
 }, {
     item_article: "W013",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w013,
     item_collection: "W"
 }, {
     item_article: "W015",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w015,
     item_collection: "W"
 }, {
     item_article: "W016",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w016,
     item_collection: "W"
 }, {
     item_article: "W017",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w017,
     item_collection: "W"
 }, {
     item_article: "W026",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w026,
     item_collection: "W"
 }, {
     item_article: "W070",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w070,
     item_collection: "W"
 }, {
     item_article: "W071",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w071,
     item_collection: "W"
 }, {
     item_article: "W073",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w073,
     item_collection: "W"
 }, {
     item_article: "W074",
-    item_title: "Floor Decorative Vase",
+    item_title: {
+        "en": "Floor Decorative Vase",
+        "ua": "Декоратична підлогова ваза"
+    },
     item_photo: w074,
     item_collection: "W"
 }, {
@@ -366,392 +468,625 @@ export default [{
     item_collection: "S"
 }, {
     item_article: "L001",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l001,
     item_collection: "L"
 }, {
     item_article: "L002",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l002,
     item_collection: "L"
 }, {
     item_article: "L007",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l007,
     item_collection: "L"
 }, {
     item_article: "L008",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l008,
     item_collection: "L"
 }, {
     item_article: "L011",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l011,
     item_collection: "L"
 }, {
     item_article: "L023",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l023,
     item_collection: "L"
 }, {
     item_article: "L028",
-    item_title: "Lamp",
+    item_title: {
+        "en": "Lamp",
+        "ua": "Світильник"
+    },
     item_photo: l028,
     item_collection: "L"
 }, {
     item_article: "D001",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d001,
     item_collection: "D"
 }, {
     item_article: "D001",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d001,
     item_collection: "D"
 }, {
     item_article: "D002",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d002,
     item_collection: "D"
 }, {
     item_article: "D008",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d008,
     item_collection: "D"
 }, {
     item_article: "D009",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d009,
     item_collection: "D"
 }, {
     item_article: "D046",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d046,
     item_collection: "D"
 }, {
     item_article: "D047",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d047,
     item_collection: "D"
 }, {
     item_article: "D051",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d051,
     item_collection: "D"
 }, {
     item_article: "D052",
-    item_title: "Vase with a rolled bottom",
+    item_title: {
+        "en": "Vase with a rolled bottom",
+        "ua": "Ваза з катаним денцем"
+    },
     item_photo: d052,
     item_collection: "D"
 }, {
     item_article: "D057",
-    item_title: "Cognac Glass with a rolled bottom",
+    item_title: {
+        "en": "Cognac Glass with a rolled bottom",
+        "ua": "Кон'ячний бокал з катаним денцем"
+    },
     item_photo: d057,
     item_collection: "D"
 }, {
     item_article: "D058",
-    item_title: "Cognac Glass with a rolled bottom",
+    item_title: {
+        "en": "Cognac Glass with a rolled bottom",
+        "ua": "Кон'ячний бокал з катаним денцем"
+    },
     item_photo: d058,
     item_collection: "D"
 }, {
     item_article: "B002",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: b002,
     item_collection: "B"
 }, {
     item_article: "B004",
-    item_title: "Candy bar",
-    item_photo: b004,
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    }, item_photo: b004,
     item_collection: "B"
 }, {
     item_article: "B009",
-    item_title: "Candy bar",
-    item_photo: b009,
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    }, item_photo: b009,
     item_collection: "B"
 }, {
     item_article: "B016",
-    item_title: "Candy bar",
-    item_photo: b016,
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    }, item_photo: b016,
     item_collection: "B"
 }, {
     item_article: "B020",
-    item_title: "Candy bar",
-    item_photo: b020,
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    }, item_photo: b020,
     item_collection: "B"
 }, {
     item_article: "B037",
-    item_title: "Candy bar",
-    item_photo: b037,
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    }, item_photo: b037,
     item_collection: "B"
 }, {
     item_article: "B014",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: b014,
     item_collection: "B"
 }, {
     item_article: "C011",
-    item_title: "Vase",
+    item_title: {
+        "en": "Vase",
+        "ua": "Ваза"
+    },
     item_photo: c011,
     item_collection: "C"
 }, {
     item_article: "C021",
-    item_title: "Vase",
+    item_title: {
+        "en": "Vase",
+        "ua": "Ваза"
+    },
     item_photo: c021,
     item_collection: "C"
 }, {
     item_article: "C024",
-    item_title: "Vase",
+    item_title: {
+        "en": "Vase",
+        "ua": "Ваза"
+    },
     item_photo: c024,
     item_collection: "C"
 }, {
     item_article: "C040",
-    item_title: "Vase",
+    item_title: {
+        "en": "Vase",
+        "ua": "Ваза"
+    },
     item_photo: c040,
     item_collection: "C"
 }, {
     item_article: "G002",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g002,
     item_collection: "G"
 }, {
     item_article: "G018",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g018,
     item_collection: "G"
 }, {
     item_article: "G019",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g019,
     item_collection: "G"
 }, {
     item_article: "G027",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g027,
     item_collection: "G"
 }, {
     item_article: "G053",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g053,
     item_collection: "G"
 }, {
     item_article: "G171",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g171,
     item_collection: "G"
 }, {
     item_article: "G172",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g172,
     item_collection: "G"
 }, {
     item_article: "G026",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: g026,
     item_collection: "G"
 }, {
     item_article: "P004",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p004,
     item_collection: "G"
 }, {
     item_article: "P005",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p005,
     item_collection: "G"
 }, {
     item_article: "P015",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p015,
     item_collection: "G"
 }, {
     item_article: "P027",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p027,
     item_collection: "G"
 }, {
     item_article: "P042",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p042,
     item_collection: "G"
 }, {
     item_article: "P043",
-    item_title: "Rough Glass Vase",
+    item_title: {
+        "en": "Rough Glass Vase",
+        "ua": "Ваза з грубого скла"
+    },
     item_photo: p043,
     item_collection: "G"
 }, {
     item_article: "H001",
-    item_title: "Tableware",
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },
     item_photo: h001,
     item_collection: "H"
 }, {
     item_article: "H002",
-    item_title: "Tableware",
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },
     item_photo: h002,
     item_collection: "H"
 }, {
     item_article: "H007",
-    item_title: "Tableware",
-    item_photo: h007,
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },    item_photo: h007,
     item_collection: "H"
 }, {
     item_article: "H010",
-    item_title: "Tableware",
-    item_photo: h010,
+    item_title: {
+        "en": "Cognac Glass",
+        "ua": "Бокал"
+    },    item_photo: h010,
     item_collection: "H"
 }, {
     item_article: "H012",
-    item_title: "Tableware",
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },
     item_photo: h012,
     item_collection: "H"
 }, {
     item_article: "H016",
-    item_title: "Tableware",
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },
     item_photo: h016,
     item_collection: "H"
 }, {
     item_article: "H002",
-    item_title: "Tableware",
+    item_title: {
+        "en": "Glass",
+        "ua": "Бокал"
+    },
     item_photo: h017,
     item_collection: "H"
 }, {
     item_article: "r001",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r001,
     item_collection: "R"
 }, {
     item_article: "r001_363",
-    item_title: "Pressed Tableware",
-    item_photo: r001_363,
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },    item_photo: r001_363,
     item_collection: "R"
 }, {
     item_article: "r002",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r002,
     item_collection: "R"
 }, {
     item_article: "r012",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r012,
     item_collection: "R"
 }, {
     item_article: "r013",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r013,
     item_collection: "R"
 }, {
     item_article: "r015",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r015,
     item_collection: "R"
 }, {
     item_article: "r017",
-    item_title: "Pressed Tableware",
+    item_title: {
+        "en": "Pressed tableware",
+        "ua": "Пресований посуд"
+    },
     item_photo: r017,
     item_collection: "R"
 }, {
     item_article: "v001",
-    item_title: "Product with a lid",
+    item_title: {
+        "en": "Vase with a lid",
+        "ua": "Ваза з кришкою"
+    },
     item_photo: v001,
     item_collection: "V"
 }, {
     item_article: "v002",
-    item_title: "Fruit bowl with a lid",
+    item_title: {
+        "en": "Fruit Vase with a lid",
+        "ua": "Фруктова ваза з кришкою"
+    },
     item_photo: v002,
     item_collection: "V"
 }, {
     item_article: "v010",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy bar",
+        "ua": "Кенді бар"
+    },
     item_photo: v010,
     item_collection: "V"
 }, {
     item_article: "v013",
-    item_title: "Fruit bowl",
+    item_title: {
+        "en": "Fruit Vase",
+        "ua": "Фруктівниця"
+    },
     item_photo: v013,
     item_collection: "V"
 }, {
     item_article: "v032",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy Bar",
+        "ua": "Кенді бар"
+    },
     item_photo: v032,
     item_collection: "V"
 }, {
     item_article: "v033",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy Bar",
+        "ua": "Кенді бар"
+    },
     item_photo: v033,
     item_collection: "V"
 }, {
     item_article: "v045",
-    item_title: "Candy bar",
+    item_title: {
+        "en": "Candy Bar",
+        "ua": "Кенді бар"
+    },
     item_photo: v045,
     item_collection: "V"
 }, {
     item_article: "v046",
-    item_title: "Fruit bowl with a lid",
+    item_title: {
+        "en": "Fruit Vase with a lid",
+        "ua": "Фруктівниця з кришкою"
+    },
     item_photo: v046,
     item_collection: "V"
 }, {
     item_article: "X005",
-    item_title: "Sphere",
+    item_title: {
+        "en": "Sphere",
+        "ua": "Сфера"
+    },
     item_photo: x005,
     item_collection: "V"
 }, {
     item_article: "X005",
-    item_title: "Sphere",
+    item_title: {
+        "en": "Sphere",
+        "ua": "Сфера"
+    },
     item_photo: x005,
     item_collection: "X"
 }, {
     item_article: "X007",
-    item_title: "Sphere",
+    item_title: {
+        "en": "Sphere",
+        "ua": "Сфера"
+    },
     item_photo: x007,
     item_collection: "X"
 }, {
     item_article: "X025",
-    item_title: "ylindrical Vase",
+    item_title: {
+        "en": "Cylindrical Vase",
+        "ua": "Циліндрична ваза"
+    },
     item_photo: x025,
     item_collection: "X"
 }, {
     item_article: "X026",
-    item_title: "Cylindrical Vase",
+    item_title: {
+        "en": "Cylindrical Vase",
+        "ua": "Циліндрична ваза"
+    },
     item_photo: x026,
     item_collection: "X"
 }, {
     item_article: "X028",
-    item_title: "Flower Vase",
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x028,
     item_collection: "X"
 }, {
     item_article: "X029",
-    item_title: "Flower Vase",
+
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x029,
     item_collection: "X"
 }, {
     item_article: "X031",
-    item_title: "Cylindrical Vase",
+
+    item_title: {
+        "en": "Cylindrical Vase",
+        "ua": "Циліндрична ваза"
+    },
     item_photo: x031,
     item_collection: "X"
 }, {
     item_article: "X034",
-    item_title: "Flower Vase",
+
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x034,
     item_collection: "X"
 }, {
     item_article: "X036",
-    item_title: "Flower Vase",
+
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x036,
     item_collection: "X"
 }, {
     item_article: "X040",
-    item_title: "Cylindrical Vase",
+
+    item_title: {
+        "en": "Cylindrical Vase",
+        "ua": "Циліндрична Ваза"
+    },
     item_photo: x040,
     item_collection: "X"
 }, {
     item_article: "X043",
-    item_title: "Flower Vase",
+
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x043,
     item_collection: "X"
 }, {
     item_article: "X046",
-    item_title: "Flower Vase",
+
+    item_title: {
+        "en": "Flower Vase",
+        "ua": "Ваза для квітів"
+    },
     item_photo: x046,
     item_collection: "X"
 }]
