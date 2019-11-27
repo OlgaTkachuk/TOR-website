@@ -4,6 +4,10 @@ import prod3 from "../assets/images/prod3.png";
 import round from "../assets/images/round_vase.png";
 import vases from "../assets/images/3vases.png";
 import prod6 from "../assets/images/prod6.png";
+import prod_gallery_1 from "../assets/images/B-removebg-preview.png";
+import prod_gallery_2 from "../assets/images/C-removebg-preview.png";
+import prod_gallery_3 from "../assets/images/N-removebg-preview.png";
+import prod_gallery_4 from "../assets/images/S-removebg-preview.png";
 import React, {Component} from 'react';
 import Media from "react-media";
 import {LanguageConsumer} from "./LanguageContext";
@@ -35,7 +39,25 @@ class CustomOurWorks extends Component {
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod6} className="custom-img"/>
+                                                <img src={prod_gallery_1} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_2} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_3} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_4} className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
@@ -56,7 +78,25 @@ class CustomOurWorks extends Component {
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod6} className="custom-img"/>
+                                                <img src={prod_gallery_1} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_2} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_3} className="custom-img"/>
+                                            </div>
+                                            <h2 className=""></h2>
+                                        </div>
+                                        <div className="custom-card">
+                                            <div className="img-container-custom-car">
+                                                <img src={prod_gallery_4} className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>

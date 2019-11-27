@@ -13,6 +13,7 @@ class ContactForm extends Component {
             company: '',
             country: '',
             file: '',
+            phone: '',
             message: '',
             formSubmitted: false
         };
@@ -23,6 +24,7 @@ class ContactForm extends Component {
         this.handleCompany = this.handleCompany.bind(this);
         this.handleCountry = this.handleCountry.bind(this);
         this.handleFile = this.handleFile.bind(this);
+        this.handlePhone = this.handlePhone.bind(this);
     }
 
     static sender = 'olgatk01@gmail.com';
@@ -48,6 +50,11 @@ class ContactForm extends Component {
     handleCompany(event) {
         this.setState({
             company: event.target.value
+        });
+    }
+    handlePhone(event) {
+        this.setState({
+            phone: event.target.value
         });
     }
 
@@ -78,6 +85,7 @@ class ContactForm extends Component {
             this.state.message,
             this.state.name,
             this.state.company,
+            this.state.phone,
             this.state.country,
             // this.state.file,
             this.state.email
@@ -105,6 +113,7 @@ class ContactForm extends Component {
             "name": this.state.name,
             "country": this.state.country,
             "company": this.state.company,
+            "phone": this.state.phone,
             "message": this.state.message
         }, "user_HhA5epB1UYyjVtpzFdDan")
             .then(res => {
@@ -126,6 +135,8 @@ class ContactForm extends Component {
                                    placeholder={content[lang].name}/>
                             <input type="email" required value={this.state.email} placeholder={content[lang].email}
                                    onChange={this.handleEmail}/>
+                            <input type="text" required value={this.state.phone} placeholder={content[lang].phone}
+                                   onChange={this.handlePhone}/>
                             <input type="text" value={this.state.company} onChange={this.handleCompany}
                                    placeholder={content[lang].company}/>
                             <input type="text" value={this.state.country} onChange={this.handleCountry}

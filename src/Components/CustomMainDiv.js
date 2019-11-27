@@ -29,7 +29,7 @@ const CustomMainDiv = () => {
                             </div>
                         </div>
                         <div className="div-custom-right">
-                            <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' width='100%'
+                            <ReactPlayer url='https://youtu.be/5xr-cC_4RCE' width='100%'
                                          height='100%'/>
                         </div>
                     </div>

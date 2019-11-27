@@ -58,7 +58,6 @@ class BlockCatalog extends Component {
                                 <div className="block-item">
                                     <p className="catalog-block-text text-long text-2 ">{content[lang].coll_k_title}</p>
                                     <img src={cake_k} className={(lang == "ua") ? "img-catalog img-cake img-cake-ukr hide-img-mob" : "img-catalog img-cake img-cake1 hide-img-mob"}/>
-
                                 </div>
                             </Link>
                             <Link to="/collection/w" style={{textDecoration: 'none'}}>

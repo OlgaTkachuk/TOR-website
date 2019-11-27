@@ -23,7 +23,6 @@ class WhatsNew extends Component {
                                     classname={"letter-about new-letter"}/>
                         </Hero>
                         <NewArrivalsCarousel/>
-                        <Trends/>
                         <Footer/>
                     </div>
                 )}
