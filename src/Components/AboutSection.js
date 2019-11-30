@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import img_par_2 from '../assets/images/photo2.webp';
-// import img_par_2 from '../assets/images/img-par-2.jpg';
-import img_par_1 from '../assets/images/photo1.webp';
+import img_par_2 from '../assets/images/photo2.jpg';
+import img_par_1 from '../assets/images/photo1.jpg';
 import {LanguageConsumer} from "./LanguageContext";
 import {content} from "../content/content";
 

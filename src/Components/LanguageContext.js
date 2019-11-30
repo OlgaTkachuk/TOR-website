@@ -1,4 +1,6 @@
 import React, {createContext} from 'react';
+import * as ReactDOM from "react-dom";
+
 
 const LanguageContext = createContext({
     lang: '',
@@ -7,6 +9,7 @@ const LanguageContext = createContext({
 });
 
 export class LanguageProvider extends React.Component {
+
 
     updateLanguage = newLang => {
         this.setState({lang: newLang});

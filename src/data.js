@@ -1,5 +1,3 @@
-import prod3 from '../src/assets/images/prod3.png'
-import prod4 from '../src/assets/images/prod4.png'
 import k003 from './assets/images/catalog/k003.png'
 import k005 from './assets/images/catalog/k005.png'
 import k008 from './assets/images/catalog/k008.png'

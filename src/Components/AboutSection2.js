@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import img_par_1 from '../assets/images/img-par-1.jpg';
-import img_par_2 from '../assets/images/img-par-2.jpg';
+import img_par_1 from '../assets/images/photo_par6.jpg';
+import img_par_2 from '../assets/images/photo_par8.jpg';
 import {LanguageConsumer} from "./LanguageContext";
 import {content} from "../content/content";
 

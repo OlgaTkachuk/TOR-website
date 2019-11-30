@@ -11,7 +11,7 @@ class WhoWeAre extends Component {
             <LanguageConsumer>
                 {({lang = ''}) => (
                     <div className="polygon">
-                        <h3 className="letters-whoweare">Lorem</h3>
+                        <h3 className="letters-whoweare">TOR</h3>
                         <p className="whoweare-text">{content[lang].who_we_are_text}</p>
                         <div className="img-wrapper-mobile img-wrapper">
                             <div className="wrapper1">

@@ -6,6 +6,7 @@ import products from "../data";
 import './Collection.css'
 import {Link} from 'react-router-dom'
 import {LanguageConsumer} from "../Components/LanguageContext";
+import {content} from "../content/content";
 
 class Collection extends Component {
     render() {
@@ -25,7 +26,7 @@ class Collection extends Component {
                                 <div className="text-coll-wrapper">
                                     <h3 className="card-collection-title">{title[lang]}</h3>
                                     <p className="card-collection-article">{article}</p>
-                                    <Link to="/contacts" className="item-button">Order</Link>
+                                    <Link to="/contacts" className="item-button">{content[lang].order}</Link>
                                 </div>
                             </div>
                         )}
