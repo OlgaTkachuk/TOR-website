@@ -14,6 +14,7 @@ import Error from "./pages/Error";
 
 import {Route, Switch} from 'react-router-dom'
 import {LanguageConsumer, LanguageProvider} from "./Components/LanguageContext";
+import {Helmet} from 'react-helmet';
 class App extends Component {
 
     render() {
@@ -22,6 +23,8 @@ class App extends Component {
                     <LanguageConsumer>
                         {({lang = ''}) => (
                             <div className={lang == "en" ? "latin-font" : "cyrillic-font"}>
+                                <Helmet title={lang == "en" ? "TOR Glass | Blown glass producer": "TOR Glass | Вироби зі скла"}
+                                    meta name="description" content={lang == "en" ? "Producer of glass artistic items and also technical colored glass. We specialize on art glassware in a wide range of shapes, designs, colours and sixes." : "Виробник скляних художніх предметів, а також технічного кольорового скла. Ми спеціалізуємось на художньому скляному посуді в широкому діапазоні форм, дизайну, кольорів та розмірів"}/>
                                 <Navbar/>
                                 <Switch>
                                     <Route exact path="/" component={Home}/>
