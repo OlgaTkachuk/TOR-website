@@ -25,10 +25,6 @@ class App extends Component {
                     <LanguageConsumer>
                         {({lang = ''}) => (
                             <div className={lang == "en" ? "latin-font" : "cyrillic-font"}>
-                                <Helmet>
-                                    <title>{lang == "en" ? "TOR Glass | Blown glass producer": "TOR Glass | Вироби зі скла"}</title>
-                                    <meta name="description" content={lang == "en" ? "Producer of glass artistic items and also technical colored glass. We specialize on art glassware in a wide range of shapes, designs, colours and sixes." : "Виробник скляних художніх предметів, а також технічного кольорового скла. Ми спеціалізуємось на художньому скляному посуді в широкому діапазоні форм, дизайну, кольорів та розмірів"}/>
-                                </Helmet>
                                 <Navbar/>
                                 <Switch>
                                     <Route exact path="/" component={Home}/>
