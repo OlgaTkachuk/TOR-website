@@ -14,13 +14,10 @@ import Error from "./pages/Error";
 
 import {Route, Switch} from 'react-router-dom'
 import {LanguageConsumer, LanguageProvider} from "./Components/LanguageContext";
-import {Helmet} from 'react-helmet';
-
 class App extends Component {
 
     render() {
         return (
-            <>
                 <LanguageProvider>
                     <LanguageConsumer>
                         {({lang = ''}) => (
@@ -40,7 +37,6 @@ class App extends Component {
                             </div>)}
                     </LanguageConsumer>
                 </LanguageProvider>
-            </>
         );
     }
 }
