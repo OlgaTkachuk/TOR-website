@@ -20,7 +20,7 @@ const AboutSection = ({title, title_classname}) => {
                             </div>
                         </div>
                         <div>
-                            <img src={img_par_1} alt={''} className="img-par"/>
+                            <img src={img_par_1} alt={'glass items manufacturing process'} className="img-par"/>
                             <div>
                                 <Link to='/about' className="button-dark button-about-div-1">{content[lang].learn_more_button} &#8250;</Link>
                             </div>
@@ -31,7 +31,7 @@ const AboutSection = ({title, title_classname}) => {
                             </div>
                         </div>
                         <div className="image-wrapper">
-                            <img src={img_par_2} alt={''} className="img-par img-par-2"/>
+                            <img src={img_par_2} alt={'glass vase manufacturing'} className="img-par img-par-2"/>
                             <Link to='/about' className="button-dark button-about-div-2">{content[lang].learn_more_button} &#8250;</Link>
                         </div>
                     </div>

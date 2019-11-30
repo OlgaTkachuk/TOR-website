@@ -25,7 +25,7 @@ class BlockMenu extends Component {
                                             <div className={(lang == "ua") ? "text-wrapper text-wrapper-1 menu-card-big-text" : "text-wrapper text-wrapper-1"}>
                                                 <h2>{content[lang].coll_n_title}</h2>
                                             </div>
-                                            <img src={vaza_kvadrat} className="menu-img-1 menu-img-same" alt={''}/>
+                                            <img src={vaza_kvadrat} alt="square vase" className="menu-img-1 menu-img-same"/>
                                         </div>
                                     </Link>
                                 </div>
@@ -35,7 +35,7 @@ class BlockMenu extends Component {
                                             <div className={(lang == "ua") ? "text-wrapper menu-card-smaller" : "text-wrapper"}>
                                                 <h2>{content[lang].coll_d_title}</h2>
                                             </div>
-                                            <img src={bokal} className="menu-img-same menu-img-4" alt={''}/>
+                                            <img src={bokal} className="menu-img-same menu-img-4" alt={'cognac glass'}/>
                                         </div>
                                     </Link>
                                     <Link to="/collection/s">
@@ -43,7 +43,7 @@ class BlockMenu extends Component {
                                             <div className="text-wrapper">
                                                 <h2>{content[lang].coll_s_title}</h2>
                                             </div>
-                                            <img src={dekanter} className="menu-img-same menu-img-3" alt={''}/>
+                                            <img src={dekanter} className="menu-img-same menu-img-3" alt={'decanter'}/>
                                         </div>
                                     </Link>
                                 </div>
@@ -53,7 +53,7 @@ class BlockMenu extends Component {
                                             <div className={(lang == "ua") ? "text-wrapper menu-card-big-text" : "text-wrapper"}>
                                                 <h2>{content[lang].coll_k_title}</h2>
                                             </div>
-                                            <img src={tort} className={(lang == "ua") ? "menu-img-same menu-img-2 menu-img-2-ukr" : "menu-img-same menu-img-2" } alt={''}/>
+                                            <img src={tort} className={(lang == "ua") ? "menu-img-same menu-img-2 menu-img-2-ukr" : "menu-img-same menu-img-2" } alt={'cake maker'}/>
                                         </div>
                                     </Link>
                                 </div>
@@ -76,7 +76,7 @@ class BlockMenu extends Component {
                                             <div className={(lang == "ua") ? "text-wrapper menu-card-big-text" : "text-wrapper"}>
                                                 <h2>{content[lang].coll_w_title}</h2>
                                             </div>
-                                            <img src={vaza_pidl} className={(lang == "ua") ? "menu-img-same menu-img-5 menu-img-5-ukr" : "menu-img-same menu-img-5" } alt={''}/>
+                                            <img src={vaza_pidl} className={(lang == "ua") ? "menu-img-same menu-img-5 menu-img-5-ukr" : "menu-img-same menu-img-5" } alt={'floor vase'}/>
                                         </div>
                                     </Link>
                                     <Link to="/dev">
@@ -84,7 +84,7 @@ class BlockMenu extends Component {
                                             <div className="text-wrapper">
                                                 <h2>{content[lang].coll_f_title}</h2>
                                             </div>
-                                            <img src={pidsv} className="menu-img-same menu-img-6" alt={''}/>
+                                            <img src={pidsv} className="menu-img-same menu-img-6" alt={'candlestick'}/>
                                         </div>
                                     </Link>
                                 </div>

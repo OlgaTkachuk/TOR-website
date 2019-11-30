@@ -24,31 +24,31 @@ class CustomOurWorks extends Component {
                                     <Carousel slideWidth="300" className="carousel-container" cellAlign="left">
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={vases} className="custom-img"/>
+                                                <img src={vases} alt="glass vases" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={round} className="custom-img"/>
+                                                <img src={round} alt="round glass vase" className="custom-img"/>
                                             </div>
                                             <h2 className="">Classic Vase</h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_1} className="custom-img"/>
+                                                <img src={prod_gallery_1} alt="exclusive blown glass vase" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_2} className="custom-img"/>
+                                                <img src={prod_gallery_2} alt="coloured cognac glass" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_3} className="custom-img"/>
+                                                <img src={prod_gallery_3} alt="coloured glass" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
@@ -63,31 +63,31 @@ class CustomOurWorks extends Component {
                                     <Carousel slideWidth="400" className="carousel-container" cellAlign="left">
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={vases} className="custom-img"/>
+                                                <img src={vases} alt="glass vases" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={round} className="custom-img"/>
+                                                <img src={round} alt="round glass vase" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_1} className="custom-img"/>
+                                                <img src={prod_gallery_1} alt="exclusive blown glass vase" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_2} className="custom-img"/>
+                                                <img src={prod_gallery_2} alt="coloured cognac glass" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>
                                         <div className="custom-card">
                                             <div className="img-container-custom-car">
-                                                <img src={prod_gallery_3} className="custom-img"/>
+                                                <img src={prod_gallery_3} alt="coloured glass" className="custom-img"/>
                                             </div>
                                             <h2 className=""></h2>
                                         </div>

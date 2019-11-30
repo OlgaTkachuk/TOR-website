@@ -21,19 +21,19 @@ const NewArrivalsCarousel = () => {
                                 <Carousel slideWidth="300" className="carousel-container-news" cellAlign="left">
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod1} className="custom-img trends-img"/>
+                                            <img src={prod1} alt="Glass vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod2} className="custom-img trends-img"/>
+                                            <img src={prod2} alt="Glass vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod3} className="custom-img trends-img"/>
+                                            <img src={prod3} alt="Flower vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].flower_vase}</h2>
                                     </div>
@@ -43,19 +43,19 @@ const NewArrivalsCarousel = () => {
                                 <Carousel slideWidth="200" className="carousel-container-news" cellAlign="left">
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod1} className="custom-img trends-img"/>
+                                            <img src={prod1} alt="Glass vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                     </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod2} className="custom-img trends-img"/>
+                                            <img src={prod2} alt="Glass vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].coarse_glass}</h2>
                                 </div>
                                     <div className="news-card">
                                         <div className="img-container-custom-car">
-                                            <img src={prod3} className="custom-img trends-img"/>
+                                            <img src={prod3} alt="Flower vase" className="custom-img trends-img"/>
                                         </div>
                                         <h2 className="cards-new-text">{content[lang].flower_vase}</h2>
                                     </div>

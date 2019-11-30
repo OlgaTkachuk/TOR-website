@@ -27,21 +27,21 @@ class NewArrivalsHome extends Component {
                                         <Carousel slideWidth="300" cellAlign='center' withoutControls={true}>
                                             <div className="new-arr-card new-arr-card-mob">
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod1_home} className="new-arr-img"/>
+                                                    <img src={prod1_home} alt="Glass vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].coarse_glass}</h2>
                                                 <p className="new-arr-code">G271</p>
                                             </div>
                                             <div className="new-arr-card">
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod2_home} className="new-arr-img"/>
+                                                    <img src={prod2_home} alt="Glass vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].coarse_glass}</h2>
                                                 <p className="new-arr-code">G365</p>
                                             </div>
                                             <div className="new-arr-card">
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod3_home} className="new-arr-img"/>
+                                                    <img src={prod3_home} alt="Flower vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].flower_vase}</h2>
                                                 <p className="new-arr-code">G398</p>
@@ -56,7 +56,7 @@ class NewArrivalsHome extends Component {
                                         <div className="new-arr-container">
                                             <div id={1} className={"new-arr-card card-1"}>
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod1_home} className="new-arr-img"/>
+                                                    <img src={prod1_home} alt="Glass vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].coarse_glass}</h2>
                                                 <p className="new-arr-code">G271</p>
@@ -64,7 +64,7 @@ class NewArrivalsHome extends Component {
                                             {/*<div className="button-new-arr button-hide" ><FaChevronLeft size={40} color="#d4d4dc" onClick={this.state.handleClickLeft}/></div>*/}
                                             <div id={2} className="new-arr-card card-2">
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod2_home} className="new-arr-img"/>
+                                                    <img src={prod2_home} alt="Glass vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].coarse_glass}</h2>
                                                 <p className="new-arr-code">G365</p>
@@ -72,7 +72,7 @@ class NewArrivalsHome extends Component {
                                             {/*<div className="button-new-arr button-hide"><FaChevronRight size={40} color="#d4d4dc"/></div>*/}
                                             <div id={3} className="new-arr-card card-3">
                                                 <div className="new-arr-img-container">
-                                                    <img src={prod3_home} className="new-arr-img"/>
+                                                    <img src={prod3_home} alt="Flower vase" className="new-arr-img"/>
                                                 </div>
                                                 <h2 className="new-arr-name">{content[lang].flower_vase}</h2>
                                                 <p className="new-arr-code">G398</p>

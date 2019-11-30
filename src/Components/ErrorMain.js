@@ -9,7 +9,7 @@ const ErrorMain = () => {
             <p className="text-error">Looks like something went wrong.. The page you are looking for cannot be
                 found...</p>
             <div className="error-img-wrapper">
-                <img src={error} className="error-img"/>
+                <img src={error} alt="Broken PC" className="error-img"/>
                 <Link to='/' className="button-dark button-error">Back to Home</Link>
             </div>
 

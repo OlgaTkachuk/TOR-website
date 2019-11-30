@@ -15,11 +15,11 @@ class WhoWeAre extends Component {
                         <p className="whoweare-text">{content[lang].who_we_are_text}</p>
                         <div className="img-wrapper-mobile img-wrapper">
                             <div className="wrapper1">
-                                <img src={img10} alt="" className="img1-whoweare"/>
-                                <img src={img12} alt="" className="img2-whoweare"/>
+                                <img src={img10} alt="Glass manufacturing process" className="img1-whoweare"/>
+                                <img src={img12} alt="Glass production" className="img2-whoweare"/>
                             </div>
                             <div>
-                                <img src={img11} alt="" className="img3-whoweare"/>
+                                <img src={img11} alt="Glass manufacturing process" className="img3-whoweare"/>
                             </div>
                         </div>
                     </div>
