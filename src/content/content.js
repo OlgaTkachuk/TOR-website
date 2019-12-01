@@ -2,6 +2,7 @@ import React from "react";
 
 export const content = {
     en: {
+        collection: "Collection",
         navbar_home: "Home",
         navbar_about: "About us",
         navbar_custom: "Custom Made",
@@ -121,6 +122,7 @@ export const content = {
             "For more information or to schedule a consultation, please fill out the form at the bottom of the page"
     },
     ua: {
+        collection: "Колекція",
         navbar_home: "Головна",
         navbar_about: "Про нас",
         navbar_custom: "На замовлення",

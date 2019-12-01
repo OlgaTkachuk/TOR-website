@@ -35,16 +35,20 @@ class Collection extends Component {
             }
         }
         return (
-            <div>
-                <Hero classname={"hero-catalog"}>
-                    <Banner letter={"C"} title={"Collection " + coll}
-                            classname={"letter-catalog"}/>
-                </Hero>
-                <div className="collection-wrapper">
-                    {products.map(product => productsSort(product))}
-                </div>
-                <Footer/>
-            </div>
+            <LanguageConsumer>
+                {({lang = ''}) => (
+                    <div>
+                        <Hero classname={"hero-catalog"}>
+                            <Banner letter={"C"} title={content[lang].collection + " " + coll}
+                                    classname={"letter-catalog"}/>
+                        </Hero>
+                        <div className="collection-wrapper">
+                            {products.map(product => productsSort(product))}
+                        </div>
+                        <Footer/>
+                    </div>
+                )}
+            </LanguageConsumer>
         );
     }
 }
