@@ -158,7 +158,7 @@ export const content = {
         new_arr_letter: "Н",
         error_hero: "Упс Сторінку не знайдено",
         coll_n_title: "Вази: циліндричні, квадратні",
-        coll_d_title: "Кон'ячний бокал, куля",
+        coll_d_title: "Коньячний бокал, куля",
         coll_s_title: "Декантер, кальян",
         coll_k_title: "Тортівниці, фруктівниці, кенді бар",
         coll_w_title: "Підлогові декоративні вази",
