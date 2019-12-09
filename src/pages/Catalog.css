@@ -124,36 +124,44 @@
     top: 50px;
     opacity: 0.7;
 }
+
 .img-cake {
     height: 100px;
     left: 10px;
     top: 70px;
 }
+
 .img-cake1 {
     top: -8px;
 }
+
 .img-cake-ukr {
     top: -30px;
 }
-.img-coarse{
+
+.img-coarse {
     height: 130px;
     left: 15px;
     top: 50px;
 }
+
 .text-short {
     width: 140px;
 }
+
 .img-varietal {
     height: 165px;
     top: 20px;
     left: 35px;
     opacity: 0.45;
 }
+
 .img-pressed {
     height: 105px;
     left: 8px;
     top: 80px;
 }
+
 @media screen and (max-width: 599px) {
     .block-menu-wrapper {
         flex-direction: column;
@@ -246,4 +254,45 @@
     .text-long {
         padding-top: 10px;
     }
+}
+
+.full-pdf-wrapper {
+
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    z-index: 500;
+}
+
+.full-pdf-wrapper-2 {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: -70px;
+    align-items: center;
+}
+
+.button-full-pdf-2 {
+    -webkit-box-shadow: 11px 15px 28px -13px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 11px 15px 28px -13px rgba(0, 0, 0, 0.6);
+    box-shadow: 11px 15px 28px -13px rgba(0, 0, 0, 0.6);
+    font-size: 0.9rem;
+    border-radius: 40px;
+    /*opacity: 60%;*/
+}
+
+.button-full-pdf {
+    background-color: #feda6a;
+    color: black;
+}
+.button-full-pdf:hover {
+    opacity: 0.9;
+}
+.button-full-pdf-2:hover {
+    opacity: 0.9;
+}
+
+.pdf-par {
+    max-width: 28%;
+    margin: 10px;
 }

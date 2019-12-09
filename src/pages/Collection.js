@@ -42,6 +42,11 @@ class Collection extends Component {
                             <Banner letter={"C"} title={content[lang].collection + " " + coll}
                                     classname={"letter-catalog"}/>
                         </Hero>
+                        <div className={"full-pdf-wrapper"}>
+                            <Link to="/contacts" className={"button-dark button-full-pdf-2"}>
+                                {content[lang].pdf_catalog}
+                            </Link>
+                        </div>
                         <div className="collection-wrapper">
                             {products.map(product => productsSort(product))}
                         </div>

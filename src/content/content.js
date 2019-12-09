@@ -119,7 +119,9 @@ export const content = {
         flower_vase: "Flower Vase",
         who_we_are_text: "TOR began its activity in the field of glassware manufacturing in 1992. Year-by-year traditions of the industry are multiplying, new technologies are being introduced, the world is changing and we are changing.The creation of glassware in our production is one of the crafts - that seeing only once, you fall in love once and for all. The magic of fire and melted glass in combination with human priesthood becomes so fascinating that the speakers are perceived as a special caste with mysterious knowledge. As various products emerge with each new breath, it is a must, and this can not but be fascinating. Each movement of the hand, the force and the speed of the breath forms a new non-re-product.Our mission: We are ready to reproduce your designs in glass!",
         custom_text: "When it comes to having a custom piece of glass made we will work with you to get you the piece of art glass you are looking for.  We will have the artist that is best suited to build your piece call you can talk with you.  We would love to see any drawings you have to help us see your vision and bring your glass idea to reality.\n" +
-            "For more information or to schedule a consultation, please fill out the form at the bottom of the page"
+            "For more information or to schedule a consultation, please fill out the form at the bottom of the page",
+        pdf_catalog: "Request full catalog with specifications",
+        pdf_text: "You can request full pdf catalog with specifications by contact form in 'Contact us'"
     },
     ua: {
         collection: "Колекція",
@@ -234,7 +236,8 @@ export const content = {
         who_we_are_text: "Підприємство TOR  розпочало  свою діяльність у сфері витоговлення виробів зі скла у 1992 році. З року в рік примножуються багатовікові традиції галузі, запроваджуються новітні технології, змінюється світ і змінюємось ми.\n" +
             " Створення виробів зі скла на нашому виробництві належить до тих ремесел - що побачивши лише раз, закохуєшся раз і на все життя. Магія вогню і розтопленої скляної маси у поєднанні із  священнодійством людини стає такою захопливою, що гутники сприймаються як особлива каста з таємничими знаннями. Дивлячись як з’являються різноманітні вироби з кожним новим подихом склодува ,  і це не може не захоплювати. Кожний рух руки, сила і швидкість подиху формує новий не повторний виріб.\n" +
             "Наша місія : Ми готові відтворювати Ваші задуми у склі ! ",
-        custom_text: "Якщо йде мова про індивіальні вироби зі скла, ми завжди готові співпрацювати з Вами аби зробити саме те, чого Ви очікуєте. Ми підберемо найкращих майстрів, які зможуть втілити саме Ваші задумки. Якщо у Вас є креслення або малюнки Вашого задуму, Ви моєете надіслати їх нам через контактну форму. Аби дізнатись більше, будь ласка, заповніть нашу форму для зв'язку. "
-
+        custom_text: "Якщо йде мова про індивіальні вироби зі скла, ми завжди готові співпрацювати з Вами аби зробити саме те, чого Ви очікуєте. Ми підберемо найкращих майстрів, які зможуть втілити саме Ваші задумки. Якщо у Вас є креслення або малюнки Вашого задуму, Ви моєете надіслати їх нам через контактну форму. Аби дізнатись більше, будь ласка, заповніть нашу форму для зв'язку.",
+        pdf_catalog: "Запит повного каталогу зі специфікацією ",
+        pdf_text: "Ви можете запросити повний pdf-каталог через форму зв'язку у розділі 'Контакти'",
     }
 };

@@ -27,6 +27,19 @@ class BlockCatalog extends Component {
             <LanguageConsumer>
                 {({lang = ''}) => (
                     <div>
+                        <div className={"full-pdf-wrapper"}>
+                            <Link to="/contacts" className={"button-dark button-full-pdf-2"}>
+                                {content[lang].pdf_catalog}
+                            </Link>
+                        </div>
+                        <div className={"full-pdf-wrapper-2"}>
+                            <p className={"pdf-par"}>
+                                {content[lang].pdf_text}
+                            </p>
+                            <Link to="/contacts" className={"button-dark button-full-pdf"}>
+                                {content[lang].pdf_catalog}
+                            </Link>
+                        </div>
                         <div className="block-menu-wrapper">
                             <Link to="/collection/n" style={{textDecoration: 'none'}} className="item-wrapper">
                                 <div className="block-item">

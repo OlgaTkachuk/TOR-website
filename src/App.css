@@ -165,8 +165,8 @@ button:focus, .logo:focus {
     min-height: calc(100vh - 225px);
     /*min-height: calc(110vh);*/
     background: linear-gradient(
-            rgba(57, 63, 77, 0.6),
-            rgba(29, 30, 34, 0.6)
+            rgba(57, 63, 77, 0.7),
+            rgba(29, 30, 34, 0.7)
     ),
     url("./assets/images/bck1.jpg");
     background-size: cover;
@@ -231,10 +231,11 @@ button:focus, .logo:focus {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    /*align-items: center;*/
     justify-items: center;
     text-transform: capitalize;
     position: relative;
+    align-items: flex-end;
 }
 
 .banner h1 {
@@ -283,6 +284,7 @@ button:focus, .logo:focus {
 @media screen and (max-width: 599px) {
     .banner {
         max-width: 440px;
+        align-items: center;
     }
 
     .banner h1 {
@@ -311,6 +313,7 @@ button:focus, .logo:focus {
 
     .banner {
         max-width: 800px;
+        align-items: center;
     }
 }
 
