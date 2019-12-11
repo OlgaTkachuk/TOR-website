@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import LanguageContext, {LanguageConsumer} from "./LanguageContext";
 import Banner from "./Banner";
 import {content} from "../content/content";
-import video from '../assets/video.mp4'
+import video from '../assets/video_new.m4v'
 
 class DesignBlock extends Component {
 

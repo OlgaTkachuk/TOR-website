@@ -1255,5 +1255,5 @@ footer p {
     width: 100% ;
     z-index: -1;
     position: absolute;
-    filter: blur(1px) opacity(0.9);
+    filter: blur(1px) opacity(1);
 }

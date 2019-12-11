@@ -267,9 +267,9 @@
 .full-pdf-wrapper-2 {
     display: flex;
     justify-content: center;
-    height: 120px;
-    margin-bottom: -70px;
+    margin: 30px auto -30px auto;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .button-full-pdf-2 {
@@ -293,6 +293,30 @@
 }
 
 .pdf-par {
-    max-width: 28%;
-    margin: 10px;
+        max-width: 28%;
+        margin: 10px;
+    }
+
+
+@media screen and (min-width: 0) and (max-width: 599px) {
+    .button-full-pdf {
+        height: 65px;
+    }
+    .full-pdf-wrapper-2 {
+        position: relative;
+        max-width: 300px;
+        margin: 20px auto auto auto;
+    }
+    .pdf-par {
+        max-width: 80%;
+    }
+    .pdf-1 {
+    order: 1;
+    }
+
+    .pdf-2 {
+        order:2;
+        max-width: 70%;
+
+    }
 }
