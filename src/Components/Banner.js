@@ -1,5 +1,5 @@
 import React from 'react';
-import video from "../assets/video.mp4";
+
 
 
 const Banner = ({children, letter, title, subtitle, classname}) => {

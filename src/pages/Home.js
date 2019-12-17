@@ -12,7 +12,6 @@ import {Link} from "react-router-dom";
 import logo_final from "../assets/images/logo_white.svg";
 import {LanguageConsumer} from "../Components/LanguageContext";
 import {content} from "../content/content";
-import video from "../assets/video.mp4";
 
 class Home extends Component {
     render() {

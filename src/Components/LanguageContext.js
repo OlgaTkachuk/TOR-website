@@ -10,7 +10,6 @@ const LanguageContext = createContext({
 
 export class LanguageProvider extends React.Component {
 
-
     updateLanguage = newLang => {
         this.setState({lang: newLang});
     };
